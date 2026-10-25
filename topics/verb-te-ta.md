@@ -7,26 +7,26 @@ title_ja: '<ruby>動詞<rt>どうし</rt></ruby>の<ruby>語幹<rt>ごかん</rt
 
 > **1. Find the type** (ru / u / exception) → **2. Find the stem** → **3. Add** て (*and, please, ongoing*) **or** た (*past*).
 >
-> Ru-verb: drop **る**. U-verb: the last kana changes. Only 3 verbs break the rules: <ruby>行<rt>い</rt></ruby>く・する・<ruby>来<rt>く</rt></ruby>る.
+> Ru-verb (<ruby>一段<rt>いちだん</rt></ruby>, *ichidan*): drop **る**. U-verb (<ruby>五段<rt>ごだん</rt></ruby>, *godan*): the last kana changes. Only 3 verbs break the rules: <ruby>行<rt>い</rt></ruby>く・する・<ruby>来<rt>く</rt></ruby>る.
 {: .formula}
 
 | Type | Dictionary form | ます-stem | て-form | た-form |
 |------|-----------------|-----------|---------|---------|
-| **Ru-verb** | <ruby>食<rt>た</rt></ruby>べ**る**<br>*eat* | <ruby>食<rt>た</rt></ruby>べ | <ruby>食<rt>た</rt></ruby>べ**て** | <ruby>食<rt>た</rt></ruby>べ**た** |
-| **U-verb** | <ruby>書<rt>か</rt></ruby>**く**<br>*write* | <ruby>書<rt>か</rt></ruby>**き** | <ruby>書<rt>か</rt></ruby>**いて** | <ruby>書<rt>か</rt></ruby>**いた** |
+| **Ru-verb**<br>*ichidan* | <ruby>食<rt>た</rt></ruby>べ**る**<br>*eat* | <ruby>食<rt>た</rt></ruby>べ | <ruby>食<rt>た</rt></ruby>べ**て** | <ruby>食<rt>た</rt></ruby>べ**た** |
+| **U-verb**<br>*godan* | <ruby>書<rt>か</rt></ruby>**く**<br>*write* | <ruby>書<rt>か</rt></ruby>**き** | <ruby>書<rt>か</rt></ruby>**いて** | <ruby>書<rt>か</rt></ruby>**いた** |
 | **Exception** | <ruby>行<rt>い</rt></ruby>**く**<br>*go* | <ruby>行<rt>い</rt></ruby>**き** | <ruby>行<rt>い</rt></ruby>**って** | <ruby>行<rt>い</rt></ruby>**った** |
 | **Exception** | する<br>*do* | **し** | **して** | **した** |
 | **Exception** | <ruby>来<rt>く</rt></ruby>る<br>*come* | <ruby>来<rt>き</rt></ruby> | <ruby>来<rt>き</rt></ruby>**て** | <ruby>来<rt>き</rt></ruby>**た** |
 {: .grid}
 
-## 1. Ru-verb or u-verb?
+## 1. Ru-verb (ichidan) or u-verb (godan)?
 
 <div class="cols" markdown="1">
 <div markdown="1">
 
-> **Ru-verb** (group 2)
+> **Ru-verb** = <ruby>一段<rt>いちだん</rt></ruby> *ichidan* ("one-row")
 >
-> Ends in **いる** or **える**. Only the る is ever dropped; the rest is the **stem** and never changes.
+> Ends in **いる** or **える**, so the stem stays in one row (い or え). Only the る is ever dropped; the stem never changes.
 
 | Verb | Meaning |
 |------|---------|
@@ -41,9 +41,9 @@ title_ja: '<ruby>動詞<rt>どうし</rt></ruby>の<ruby>語幹<rt>ごかん</rt
 </div>
 <div markdown="1">
 
-> **U-verb** (group 1)
+> **U-verb** = <ruby>五段<rt>ごだん</rt></ruby> *godan* ("five-row")
 >
-> Ends in **う く ぐ す つ ぬ ぶ む**, or in **る** after あ・う・お. The last kana moves along the row (<ruby>書<rt>か</rt></ruby>く → <ruby>書<rt>か</rt></ruby>き・<ruby>書<rt>か</rt></ruby>か・<ruby>書<rt>か</rt></ruby>け ...).
+> Ends in **う く ぐ す つ ぬ ぶ む**, or in **る** after あ・う・お. The last kana moves through all five rows (あ・い・う・え・お): <ruby>書<rt>か</rt></ruby>か・<ruby>書<rt>か</rt></ruby>き・<ruby>書<rt>か</rt></ruby>く・<ruby>書<rt>か</rt></ruby>け・<ruby>書<rt>か</rt></ruby>こ.
 
 | Verb | Meaning |
 |------|---------|
@@ -67,7 +67,7 @@ title_ja: '<ruby>動詞<rt>どうし</rt></ruby>の<ruby>語幹<rt>ごかん</rt
 **Tae Kim:** {% taekim 3.5.2 3.5.3 %}
 {: .refs}
 
-## 2. Ru-verb: drop る, add て / た
+## 2. Ru-verb (ichidan): drop る, add て / た
 {: .new-page}
 
 > **<ruby>食<rt>た</rt></ruby>べる → <ruby>食<rt>た</rt></ruby>べ + て / た**
@@ -88,7 +88,7 @@ title_ja: '<ruby>動詞<rt>どうし</rt></ruby>の<ruby>語幹<rt>ごかん</rt
 **Tae Kim:** {% taekim 3.7.1 4.4.2 %}
 {: .refs}
 
-## 3. U-verb: look at the last kana
+## 3. U-verb (godan): look at the last kana
 
 > **The last kana decides.** て-form and た-form change together; only the て / た (or で / だ) at the end differs.
 >
