@@ -191,6 +191,13 @@ p.refs strong { color: var(--ink); }
 ul, ol { margin: 0.3em 0 0.8em; padding-left: 1.4em; }
 li { margin-bottom: 0.15em; }
 
+/* Inline SVG illustrations */
+figure.illustration {
+  margin: 0.4em 0 0.9em;
+  break-inside: avoid;
+}
+figure.illustration svg { display: block; width: 100%; height: auto; }
+
 /* Start a section on a fresh page when printing */
 .new-page { break-before: page; margin-top: 0; }
 

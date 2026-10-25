@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 22 800 274" role="img" aria-label="Cutaway of a two-storey Japanese house with every room labelled in Japanese">
+  <style>
+    .rh-jp { font-size: 15px; font-weight: bold; fill: #24364f; text-anchor: middle; }
+    .rh-jp.sm { font-size: 13px; }
+    .rh-rd { font-size: 9px; fill: #666; text-anchor: middle; }
+    .rh-en { font-size: 9px; fill: #666; text-anchor: middle; font-style: italic; }
+    .rh-w  { fill: #fff; text-anchor: middle; }
+    .rh-room { stroke: #24364f; stroke-width: 1.8; }
+    .rh-line { fill: none; stroke: #24364f; stroke-width: 1.4; stroke-linecap: round; }
+  </style>
+
+  <!-- sky, sun, ground -->
+  <circle cx="752" cy="52" r="24" fill="#b3262d"/>
+  <rect x="0" y="280" width="800" height="26" fill="#dfe8d5"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#24364f" stroke-width="2"/>
+
+  <!-- floor tags -->
+  <g>
+    <rect x="8" y="128" width="50" height="38" rx="9" fill="#24364f"/>
+    <text class="rh-w" x="33" y="145" font-size="14" font-weight="bold">二階</text>
+    <text class="rh-w" x="33" y="159" font-size="10">2F</text>
+    <rect x="8" y="218" width="50" height="38" rx="9" fill="#24364f"/>
+    <text class="rh-w" x="33" y="235" font-size="14" font-weight="bold">一階</text>
+    <text class="rh-w" x="33" y="249" font-size="10">1F</text>
+  </g>
+
+  <!-- 2F rooms -->
+  <rect class="rh-room" x="70"  y="100" width="150" height="90" fill="#f3ecf7"/>
+  <rect class="rh-room" x="220" y="100" width="120" height="90" fill="#fdf3dc"/>
+  <rect class="rh-room" x="340" y="100" width="110" height="90" fill="#e8f1e4"/>
+  <rect x="450" y="100" width="120" height="90" fill="#f4f6f9" stroke="#24364f" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+  <!-- 1F rooms -->
+  <rect class="rh-room" x="70"  y="190" width="70"  height="90" fill="#f3e9df"/>
+  <rect class="rh-room" x="140" y="190" width="110" height="90" fill="#fdf0ee"/>
+  <rect class="rh-room" x="250" y="190" width="140" height="90" fill="#eef4fb"/>
+  <rect class="rh-room" x="390" y="190" width="50"  height="90" fill="#f4f6f9"/>
+  <rect class="rh-room" x="440" y="190" width="60"  height="90" fill="#e8f1e4"/>
+  <rect class="rh-room" x="500" y="190" width="70"  height="90" fill="#e1eef8"/>
+
+  <!-- garage + garden -->
+  <rect class="rh-room" x="570" y="200" width="100" height="80" fill="#eceff3"/>
+  <line x1="562" y1="200" x2="678" y2="200" stroke="#24364f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- roof -->
+  <polygon points="56,100 260,28 464,100" fill="#b3262d" stroke="#24364f" stroke-width="1.8" stroke-linejoin="round"/>
+  <text class="rh-w" x="260" y="74" font-size="14" font-weight="bold">屋根</text>
+  <text class="rh-w" x="260" y="86" font-size="8" opacity=".85">やね ・ roof</text>
+
+  <!-- ===== 2F labels + furniture ===== -->
+  <!-- 寝室 -->
+  <text class="rh-jp" x="145" y="122">寝室</text>
+  <text class="rh-rd" x="145" y="134">しんしつ</text>
+  <text class="rh-en" x="145" y="145">bedroom</text>
+  <rect x="78" y="172" width="70" height="10" rx="3" fill="#fff" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="76" y="160" width="6" height="28" rx="2" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <ellipse cx="92" cy="169" rx="8" ry="4" fill="#cdbbe0" stroke="#24364f" stroke-width="1"/>
+  <rect x="84" y="182" width="62" height="5" fill="#8a7bb0"/>
+  <rect x="160" y="174" width="18" height="14" rx="2" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <circle cx="169" cy="167" r="6" fill="#fff" stroke="#24364f" stroke-width="1.3"/>
+  <path class="rh-line" d="M169 167v-3M169 167l2 1.5"/>
+
+  <!-- 子供部屋 -->
+  <text class="rh-jp sm" x="280" y="122">子供部屋</text>
+  <text class="rh-rd" x="280" y="134">こどもべや</text>
+  <text class="rh-en" x="280" y="145">children's room</text>
+  <rect x="240" y="176" width="12" height="12" fill="#b3262d" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="254" y="176" width="12" height="12" fill="#5b8fc7" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="247" y="164" width="12" height="12" fill="#f0c04d" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="285" y="168" width="38" height="5" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="rh-line" d="M288 173v15M320 173v15"/>
+
+  <!-- 書斎 -->
+  <text class="rh-jp" x="395" y="122">書斎</text>
+  <text class="rh-rd" x="395" y="134">しょさい</text>
+  <text class="rh-en" x="395" y="145">study</text>
+  <rect x="348" y="152" width="24" height="36" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <path class="rh-line" d="M348 164h24M348 176h24"/>
+  <rect x="351" y="155" width="3" height="9" fill="#b3262d"/><rect x="356" y="156" width="3" height="8" fill="#5b8fc7"/><rect x="361" y="155" width="3" height="9" fill="#f0c04d"/>
+  <rect x="351" y="167" width="3" height="9" fill="#5b8fc7"/><rect x="356" y="168" width="3" height="8" fill="#b3262d"/><rect x="361" y="167" width="4" height="9" fill="#24364f"/>
+  <rect x="380" y="174" width="40" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="rh-line" d="M384 178v10M416 178v10"/>
+  <rect x="393" y="163" width="14" height="10" rx="1" fill="#dfe7ef" stroke="#24364f" stroke-width="1.2"/>
+
+  <!-- ベランダ -->
+  <text class="rh-jp sm" x="510" y="122">ベランダ</text>
+  <text class="rh-en" x="510" y="134">balcony</text>
+  <path class="rh-line" d="M458 142v48M562 142v48M458 146h104"/>
+  <path d="M470 147l-7 3v7l4-1v10h14v-10l4 1v-7l-7-3q-4 3-8 0z" fill="#5b8fc7" stroke="#24364f" stroke-width="1"/>
+  <path d="M498 147l-7 3v7l4-1v10h14v-10l4 1v-7l-7-3q-4 3-8 0z" fill="#fff" stroke="#24364f" stroke-width="1"/>
+  <path d="M526 147l-7 3v7l4-1v10h14v-10l4 1v-7l-7-3q-4 3-8 0z" fill="#f0c04d" stroke="#24364f" stroke-width="1"/>
+  <path class="rh-line" d="M450 174h120M462 174v16M480 174v16M498 174v16M516 174v16M534 174v16M552 174v16"/>
+
+  <!-- ===== 1F labels + furniture ===== -->
+  <!-- 玄関 -->
+  <text class="rh-jp" x="105" y="212">玄関</text>
+  <text class="rh-rd" x="105" y="224">げんかん</text>
+  <text class="rh-en" x="105" y="235">entrance</text>
+  <rect x="118" y="246" width="18" height="34" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="rh-line" d="M118 258h18M118 269h18"/>
+  <ellipse cx="85" cy="276" rx="7" ry="3.5" fill="#24364f"/>
+  <ellipse cx="100" cy="276" rx="7" ry="3.5" fill="#24364f"/>
+
+  <!-- 台所 -->
+  <text class="rh-jp" x="195" y="212">台所</text>
+  <text class="rh-rd" x="195" y="224">だいどころ</text>
+  <text class="rh-en" x="195" y="235">kitchen</text>
+  <rect x="150" y="242" width="24" height="38" rx="2" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <path class="rh-line" d="M150 258h24M169 247v6M169 262v8"/>
+  <rect x="182" y="258" width="60" height="22" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="190" y="254" width="18" height="4" fill="#24364f"/>
+  <rect x="216" y="254" width="18" height="4" fill="#24364f"/>
+
+  <!-- 居間 -->
+  <text class="rh-jp" x="320" y="212">居間</text>
+  <text class="rh-rd" x="320" y="224">いま</text>
+  <text class="rh-en" x="320" y="235">living room</text>
+  <rect x="262" y="248" width="14" height="32" rx="5" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="262" y="262" width="58" height="18" rx="5" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="346" y="250" width="34" height="20" rx="2" fill="#24364f"/>
+  <rect x="349" y="253" width="28" height="14" fill="#5b8fc7"/>
+  <rect x="354" y="270" width="24" height="10" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+
+  <!-- トイレ -->
+  <text class="rh-jp sm" x="415" y="212">トイレ</text>
+  <text class="rh-en" x="415" y="224">toilet</text>
+  <rect x="398" y="248" width="12" height="16" rx="2" fill="#fff" stroke="#24364f" stroke-width="1.3"/>
+  <path d="M398 266h30q0 14-14 14h-12z" fill="#fff" stroke="#24364f" stroke-width="1.3" stroke-linejoin="round"/>
+  <rect x="400" y="264" width="12" height="3" fill="#fff" stroke="#24364f" stroke-width="1"/>
+
+  <!-- 洗面所 -->
+  <text class="rh-jp sm" x="470" y="212">洗面所</text>
+  <text class="rh-rd" x="470" y="224">せんめんじょ</text>
+  <text class="rh-en" x="470" y="235">washroom</text>
+  <rect x="446" y="256" width="18" height="6" rx="2" fill="#fff" stroke="#24364f" stroke-width="1.3"/>
+  <path class="rh-line" d="M455 262v18"/>
+  <rect x="468" y="252" width="28" height="28" rx="2" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <circle cx="482" cy="268" r="9" fill="#cfe3f3" stroke="#24364f" stroke-width="1.3"/>
+  <circle cx="490" cy="256" r="1.6" fill="#24364f"/>
+
+  <!-- 浴室 -->
+  <text class="rh-jp" x="535" y="212">浴室</text>
+  <text class="rh-rd" x="535" y="224">よくしつ</text>
+  <text class="rh-en" x="535" y="235">bathroom</text>
+  <rect x="507" y="258" width="56" height="22" rx="6" fill="#cfe3f3" stroke="#24364f" stroke-width="1.3"/>
+  <path class="rh-line" d="M512 266q4-3 8 0t8 0 8 0 8 0 8 0 8 0"/>
+  <path class="rh-line" d="M510 240v8h8"/>
+
+  <!-- 車庫 -->
+  <text class="rh-jp" x="620" y="220">車庫</text>
+  <text class="rh-rd" x="620" y="232">しゃこ</text>
+  <text class="rh-en" x="620" y="243">garage</text>
+  <rect x="585" y="258" width="70" height="16" rx="5" fill="#5b8fc7" stroke="#24364f" stroke-width="1.3"/>
+  <path d="M598 258l8-10h32l8 10z" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3" stroke-linejoin="round"/>
+  <circle cx="600" cy="275" r="6" fill="#24364f"/><circle cx="640" cy="275" r="6" fill="#24364f"/>
+
+  <!-- 庭 -->
+  <text class="rh-jp" x="735" y="146">庭</text>
+  <text class="rh-rd" x="735" y="158">にわ ・ garden</text>
+  <rect x="728" y="218" width="10" height="62" fill="#a77c52" stroke="#24364f" stroke-width="1.2"/>
+  <circle cx="733" cy="206" r="22" fill="#6aa66a" stroke="#24364f" stroke-width="1.3"/>
+  <circle cx="715" cy="218" r="14" fill="#6aa66a" stroke="#24364f" stroke-width="1.3"/>
+  <circle cx="752" cy="218" r="14" fill="#6aa66a" stroke="#24364f" stroke-width="1.3"/>
+  <circle cx="733" cy="209" r="17" fill="#6aa66a"/>
+  <path class="rh-line" d="M692 280v-14M772 280v-18M786 280v-12"/>
+  <circle cx="692" cy="264" r="4" fill="#b3262d"/>
+  <circle cx="772" cy="260" r="4" fill="#f0c04d"/>
+  <circle cx="786" cy="266" r="4" fill="#b3262d"/>
+</svg>
