@@ -7,6 +7,9 @@
 #   bin/build sentence        # only topics/sentence.md
 #   bin/build --html          # HTML only, skip the PDF
 #
+# A full build (no topic given) also writes build/index.html, the landing page
+# of the site published to GitHub Pages (see .github/workflows/pages.yml).
+#
 # Topics: every page with `layout: cheatsheet` (all of topics/*.md, see the
 # `defaults` in _config.yml), so topics/sentence.md -> build/sentence.pdf.
 #
@@ -14,6 +17,7 @@
 # Furigana is plain HTML in the Markdown: <ruby>食<rt>た</rt></ruby>べる.
 # The PDF is printed from that HTML by headless Chrome (override with CHROME=/path).
 
+require "cgi"
 require "fileutils"
 require "jekyll"
 
@@ -66,6 +70,40 @@ pages = site.pages.select { |p| p.data["layout"] == "cheatsheet" }
 pages = pages.select { |p| wanted.include?(File.basename(p.name, ".*")) } unless wanted.empty?
 abort("No matching topics found") if pages.empty?
 
+def write_index(pages, html_only)
+  items = pages.sort_by(&:name).map do |page|
+    name = File.basename(page.name, ".*")
+    pdf  = html_only ? "" : %( · <a href="#{name}.pdf">PDF</a>)
+    <<~ITEM
+      <li><a href="#{name}.html">#{CGI.escapeHTML(page.data["title"])}</a>#{pdf}
+        <span>#{page.data["title_ja"]}</span></li>
+    ITEM
+  end
+
+  path = File.join(OUT, "index.html")
+  File.write(path, <<~HTML)
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>ムフィドの日本語学習早見表</title>
+      <style>
+        body { font-family: system-ui, "Hiragino Sans", sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+        li { margin-bottom: .75rem; }
+        li span { display: block; color: #666; }
+      </style>
+    </head>
+    <body>
+      <h1>ムフィドの日本語学習早見表</h1>
+      <ul>
+    #{items.join.gsub(/^/, "    ")}  </ul>
+    </body>
+    </html>
+  HTML
+  puts "INDEX #{path}"
+end
+
 pages.each do |page|
   name = File.basename(page.name, ".*")
 
@@ -79,3 +117,6 @@ pages.each do |page|
   print_pdf(html, pdf)
   puts "PDF   #{pdf}"
 end
+
+# The landing page for the published site; only for a full build.
+write_index(pages, html_only) if wanted.empty?
