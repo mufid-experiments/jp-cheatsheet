@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 378" role="img" aria-label="Pictograms for kami-ichidan verbs">
+  <style>
+    .vi-l { fill:none; stroke:#24364f; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-a { fill:none; stroke:#b3262d; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-f { fill:#24364f; stroke:none; }
+    .vi-fa { fill:#b3262d; stroke:none; }
+    .vi-card { fill:#f4f6f9; stroke:#dfe3ea; stroke-width:1.5; }
+    .vi-kanji { font-size:17px; font-weight:bold; fill:#24364f; text-anchor:middle; }
+    .vi-rd { font-size:10px; fill:#666; text-anchor:middle; }
+    .vi-mn { font-size:9px; fill:#666; font-style:italic; text-anchor:middle; }
+
+  </style>
+
+  <g transform="translate(10,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M16 72 h68"/><path class="vi-a" d="M50 18 v38"/><path class="vi-a" d="M38 46 l12 12 l12 -12"/></svg>
+    <text class="vi-rd" x="75.0" y="104">おりる</text>
+    <text class="vi-kanji" x="75.0" y="124">降りる</text>
+    <text class="vi-mn" x="75.0" y="140">get off</text>
+  </g>
+  <g transform="translate(172,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="32" cy="50" r="17"/><path class="vi-l" d="M32 50 v-9 M32 50 l7 4"/><path class="vi-a" d="M54 50 h26"/><path class="vi-a" d="M72 42 l8 8 l-8 8"/></svg>
+    <text class="vi-rd" x="75.0" y="104">すぎる</text>
+    <text class="vi-kanji" x="75.0" y="124">過ぎる</text>
+    <text class="vi-mn" x="75.0" y="140">pass, exceed</text>
+  </g>
+  <g transform="translate(334,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M22 40 h56 l-6 36 h-44 z"/><path class="vi-l" d="M26 40 h48"/><path class="vi-a" d="M36 26 l8 8 l16 -18"/></svg>
+    <text class="vi-rd" x="75.0" y="104">たりる</text>
+    <text class="vi-kanji" x="75.0" y="124">足りる</text>
+    <text class="vi-mn" x="75.0" y="140">be enough</text>
+  </g>
+  <g transform="translate(496,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M50 78 q-28 -18 -28 -38 a13 13 0 0 1 28 -6 a13 13 0 0 1 28 6 q0 20 -28 38 z"/><path class="vi-a" d="M22 44 h10 l5 -13 l8 22 l5 -14 l5 5 h13"/></svg>
+    <text class="vi-rd" x="75.0" y="104">いきる</text>
+    <text class="vi-kanji" x="75.0" y="124">生きる</text>
+    <text class="vi-mn" x="75.0" y="140">live</text>
+  </g>
+  <g transform="translate(658,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M14 28 q18 -8 33 0 v40 q-15 -8 -33 0 z"/><path class="vi-l" d="M80 28 q-18 -8 -33 0 v40 q15 -8 33 0 z"/><rect class="vi-fa" x="43" y="46" width="14" height="10" rx="2"/></svg>
+    <text class="vi-rd" x="75.0" y="104">とじる</text>
+    <text class="vi-kanji" x="75.0" y="124">閉じる</text>
+    <text class="vi-mn" x="75.0" y="140">close</text>
+  </g>
+  <g transform="translate(10,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="32" cy="52" r="17"/><circle class="vi-l" cx="66" cy="52" r="17"/><text class="vi-kanji" x="49" y="58" font-size="18" fill="#b3262d">≈</text></svg>
+    <text class="vi-rd" x="75.0" y="104">にる</text>
+    <text class="vi-kanji" x="75.0" y="124">似る</text>
+    <text class="vi-mn" x="75.0" y="140">resemble</text>
+  </g>
+</svg>
