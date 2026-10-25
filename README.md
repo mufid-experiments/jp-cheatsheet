@@ -29,6 +29,7 @@ Each file in `topics/` is one cheatsheet: `topics/<name>.md` -> `build/<name>.pd
 | Basic grammar: past, formal, ongoing (だ・です・ている) | `topics/grammar-basic.md` |
 | Time reference (today, tomorrow, this morning ...) | `topics/time-reference.md` |
 | Verb stems and て・た forms (ru-verb / ichidan, u-verb / godan, exceptions) | `topics/verb-te-ta.md` |
+| Common verbs 1: godan, kami-ichidan, shimo-ichidan + example sentences | `topics/verb-common-1.md` |
 
 Furigana is plain HTML ruby: `<ruby>食<rt>た</rt></ruby>べる`.
 Highlight a particle with `**bold**`; example tables use `{: .ex}`.
