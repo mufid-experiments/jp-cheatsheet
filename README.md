@@ -1,4 +1,4 @@
-# Mufid's Japanese Learning Cheatsheeet
+# ムフィドの日本語学習早見表
 
 Self-explanatory
 
