@@ -141,6 +141,12 @@ table.center td, table.center th { text-align: center; }
 table.center td:first-child { font-weight: normal; }
 table.nobold td:first-child { font-weight: normal; }
 
+/* Verb vocab: word+meaning | example sentence | translation */
+table.verbs td:first-child { font-weight: bold; font-size: 10.5pt; white-space: nowrap; width: 15%; }
+table.verbs td:nth-child(2) { color: var(--muted); font-style: italic; font-size: 9pt; white-space: nowrap; width: 15%; }
+table.verbs td:nth-child(3) { font-size: 10pt; }
+table.verbs td:last-child { color: var(--muted); font-size: 9pt; }
+
 /* Connector table: role | connector | meaning | example */
 table.connectors td:nth-child(1) { font-size: 8pt; color: var(--ink); width: 11%; }
 table.connectors td:nth-child(2) { font-weight: bold; white-space: nowrap; }

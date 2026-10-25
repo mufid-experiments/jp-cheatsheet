@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 378" role="img" aria-label="Pictograms for kami-ichidan verbs">
+  <style>
+    .vi-l { fill:none; stroke:#24364f; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-a { fill:none; stroke:#b3262d; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-f { fill:#24364f; stroke:none; }
+    .vi-fa { fill:#b3262d; stroke:none; }
+    .vi-card { fill:#f4f6f9; stroke:#dfe3ea; stroke-width:1.5; }
+    .vi-kanji { font-size:17px; font-weight:bold; fill:#24364f; text-anchor:middle; }
+    .vi-rd { font-size:10px; fill:#666; text-anchor:middle; }
+    .vi-mn { font-size:9px; fill:#666; font-style:italic; text-anchor:middle; }
+
+  </style>
+
+  <g transform="translate(10,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M12 50 q38 -32 76 0 q-38 32 -76 0 z"/><circle class="vi-l" cx="50" cy="50" r="13"/><circle class="vi-f" cx="50" cy="50" r="4.5"/></svg>
+    <text class="vi-rd" x="75.0" y="104">みる</text>
+    <text class="vi-kanji" x="75.0" y="124">見る</text>
+    <text class="vi-mn" x="75.0" y="140">watch, see</text>
+  </g>
+  <g transform="translate(172,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="50" cy="50" r="33"/><path class="vi-a" d="M33 52 l12 12 l24 -28"/></svg>
+    <text class="vi-rd" x="75.0" y="104">できる</text>
+    <text class="vi-kanji" x="75.0" y="124">できる</text>
+    <text class="vi-mn" x="75.0" y="140">can, be able</text>
+  </g>
+  <g transform="translate(334,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M36 20 l-22 13 l9 14 l13 -7 v42 h28 v-42 l13 7 l9 -14 l-22 -13 q-4 9 -14 9 q-10 0 -14 -9 z"/></svg>
+    <text class="vi-rd" x="75.0" y="104">きる</text>
+    <text class="vi-kanji" x="75.0" y="124">着る</text>
+    <text class="vi-mn" x="75.0" y="140">wear</text>
+  </g>
+  <g transform="translate(496,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M12 68 h76"/><path class="vi-a" d="M28 68 a22 22 0 0 1 44 0"/><path class="vi-l" d="M50 30 v-10 M33 36 l-7 -7 M67 36 l7 -7"/></svg>
+    <text class="vi-rd" x="75.0" y="104">おきる</text>
+    <text class="vi-kanji" x="75.0" y="124">起きる</text>
+    <text class="vi-mn" x="75.0" y="140">wake up</text>
+  </g>
+  <g transform="translate(658,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><rect class="vi-l" x="16" y="56" width="40" height="18" rx="2"/><path class="vi-l" d="M16 56 h40 M24 56 v18 M32 56 v18 M40 56 v18 M48 56 v18"/><path class="vi-a" d="M62 50 l20 -12"/><path class="vi-a" d="M70 36 l12 2 l-4 12"/></svg>
+    <text class="vi-rd" x="75.0" y="104">かりる</text>
+    <text class="vi-kanji" x="75.0" y="124">借りる</text>
+    <text class="vi-mn" x="75.0" y="140">borrow</text>
+  </g>
+  <g transform="translate(10,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M28 76 q-6 -28 16 -34 q5 -9 11 0 q22 6 16 34 z"/><path class="vi-l" d="M33 44 l-5 -11 l10 5 z"/><path class="vi-l" d="M65 44 l5 -11 l-10 5 z"/><path class="vi-l" d="M70 60 l16 -6"/><circle class="vi-f" cx="40" cy="55" r="2.2"/><circle class="vi-f" cx="54" cy="55" r="2.2"/></svg>
+    <text class="vi-rd" x="75.0" y="104">いる</text>
+    <text class="vi-kanji" x="75.0" y="124">いる</text>
+    <text class="vi-mn" x="75.0" y="140">exist (living)</text>
+  </g>
+  <g transform="translate(172,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M50 78 q-30 -20 -30 -40 a14 14 0 0 1 30 -7 a14 14 0 0 1 30 7 q0 20 -30 40 z"/><path class="vi-a" d="M36 36 l9 9 l19 -19"/></svg>
+    <text class="vi-rd" x="75.0" y="104">しんじる</text>
+    <text class="vi-kanji" x="75.0" y="124">信じる</text>
+    <text class="vi-mn" x="75.0" y="140">believe</text>
+  </g>
+</svg>
