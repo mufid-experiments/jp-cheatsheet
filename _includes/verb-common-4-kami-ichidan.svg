@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 192" role="img" aria-label="Pictogram highlights for kami-ichidan verbs">
+  <style>
+    .vi-l { fill:none; stroke:#24364f; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-a { fill:none; stroke:#b3262d; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-f { fill:#24364f; stroke:none; }
+    .vi-fa { fill:#b3262d; stroke:none; }
+    .vi-card { fill:#f4f6f9; stroke:#dfe3ea; stroke-width:1.5; }
+    .vi-kanji { font-size:17px; font-weight:bold; fill:#24364f; text-anchor:middle; }
+    .vi-rd { font-size:10px; fill:#666; text-anchor:middle; }
+    .vi-mn { font-size:9px; fill:#666; font-style:italic; text-anchor:middle; }
+
+  </style>
+
+  <g transform="translate(10,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><rect class="vi-l" x="30" y="20" width="12" height="60"/><path class="vi-a" d="M32 30 q8 4 0 8 M32 42 q8 4 0 8 M32 54 q8 4 0 8 M32 66 q8 4 0 8"/></svg>
+    <text class="vi-rd" x="75.0" y="104">さびる</text>
+    <text class="vi-kanji" x="75.0" y="124">さびる</text>
+    <text class="vi-mn" x="75.0" y="140">rust</text>
+  </g>
+  <g transform="translate(172,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="50" cy="48" r="20"/><path class="vi-l" d="M41 56 q9 -6 18 0"/><path class="vi-a" d="M68 20 q11 -8 21 0 q7 6 0 13 q-10 6 -21 0 q-7 -6 0 -13 z" stroke-dasharray="4 3"/><text class="vi-kanji" x="78" y="32" font-size="15" fill="#b3262d">?</text></svg>
+    <text class="vi-rd" x="75.0" y="104">あんじる</text>
+    <text class="vi-kanji" x="75.0" y="124">案じる</text>
+    <text class="vi-mn" x="75.0" y="140">worry (about)</text>
+  </g>
+</svg>
