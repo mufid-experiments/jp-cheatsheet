@@ -26,7 +26,7 @@ jobs:
 
       # HTML + PDF for every topic, plus build/index.html. Chrome is preinstalled
       # on ubuntu-latest and found by bin/build as `google-chrome`.
-      - run: bin/build
+      - run: bundle exec bin/build
 
       - uses: actions/upload-pages-artifact@v3
         with:
