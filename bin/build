@@ -1,0 +1,81 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Builds the cheatsheets from Jekyll-flavoured Markdown into HTML and PDF.
+#
+#   bin/build                 # every topic -> build/<topic>.html + build/<topic>.pdf
+#   bin/build sentence        # only topics/sentence.md
+#   bin/build --html          # HTML only, skip the PDF
+#
+# Topics: every page with `layout: cheatsheet` (all of topics/*.md, see the
+# `defaults` in _config.yml), so topics/sentence.md -> build/sentence.pdf.
+#
+# HTML is rendered by Jekyll (kramdown + the `cheatsheet` layout, CSS inlined).
+# Furigana is plain HTML in the Markdown: <ruby>食<rt>た</rt></ruby>べる.
+# The PDF is printed from that HTML by headless Chrome (override with CHROME=/path).
+
+require "fileutils"
+require "jekyll"
+
+ROOT = File.expand_path("..", __dir__)
+OUT  = File.join(ROOT, "build")
+
+CHROME_CANDIDATES = [
+  ENV["CHROME"],
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+  "/Applications/Chromium.app/Contents/MacOS/Chromium",
+  "google-chrome", "chromium", "chromium-browser"
+].compact
+
+def chrome
+  @chrome ||= CHROME_CANDIDATES.find do |c|
+    c.include?("/") ? File.executable?(c) : system("command -v #{c} >/dev/null 2>&1")
+  end || abort("Chrome not found; set CHROME=/path/to/chrome")
+end
+
+def build_site
+  config = Jekyll.configuration(
+    "source" => ROOT,
+    "destination" => File.join(ROOT, "_site"),
+    "quiet" => true
+  )
+  site = Jekyll::Site.new(config)
+  site.process
+  site
+end
+
+def print_pdf(html_path, pdf_path)
+  ok = system(
+    chrome,
+    "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+    "--virtual-time-budget=5000",
+    "--print-to-pdf=#{pdf_path}",
+    "file://#{html_path}",
+    out: File::NULL, err: File::NULL
+  )
+  abort("PDF generation failed for #{html_path}") unless ok && File.exist?(pdf_path)
+end
+
+html_only = ARGV.include?("--html")
+wanted    = ARGV.reject { |a| a.start_with?("--") }.map { |a| File.basename(a, ".*") }
+FileUtils.mkdir_p(OUT)
+
+site  = build_site
+pages = site.pages.select { |p| p.data["layout"] == "cheatsheet" }
+pages = pages.select { |p| wanted.include?(File.basename(p.name, ".*")) } unless wanted.empty?
+abort("No matching topics found") if pages.empty?
+
+pages.each do |page|
+  name = File.basename(page.name, ".*")
+
+  html = File.join(OUT, "#{name}.html")
+  FileUtils.cp(page.destination(site.dest), html)
+  puts "HTML  #{html}"
+
+  next if html_only
+
+  pdf = File.join(OUT, "#{name}.pdf")
+  print_pdf(html, pdf)
+  puts "PDF   #{pdf}"
+end

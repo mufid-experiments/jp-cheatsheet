@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}{% if page.level %} ({{ page.level }}){% endif %}</title>
+  <style>
+{% include cheatsheet.css %}
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <header>
+      <div>
+        <h1>{{ page.title }}</h1>
+        <p class="title-ja">{{ page.title_ja }}</p>
+      </div>
+      <p class="level">{{ page.level }}</p>
+    </header>
+{{ content }}
+  </main>
+</body>
+</html>

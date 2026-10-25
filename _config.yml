@@ -1,0 +1,22 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+exclude:
+  - "*.pdf"
+  - bin
+  - build
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+
+# Every file in topics/ is a cheatsheet: topics/<name>.md -> build/<name>.pdf
+defaults:
+  - scope:
+      path: topics
+    values:
+      layout: cheatsheet
+      level: JLPT N4
