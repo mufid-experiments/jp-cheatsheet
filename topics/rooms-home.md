@@ -8,6 +8,10 @@ title_ja: '<ruby>家<rt>いえ</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>'
 > **<ruby>家<rt>いえ</rt></ruby>** = house (the building) ・ **うち** = my home / my family ・ **<ruby>部屋<rt>へや</rt></ruby>** = room.
 > Modern homes often say the katakana word (リビング, キッチン) instead of the kanji one.
 
+<figure class="illustration" markdown="0">
+{% include rooms-home.svg %}
+</figure>
+
 ### Living spaces
 
 | Room | English | Also said | Things you find there |
@@ -140,7 +144,6 @@ One tatami mat is about 1.6 m². **<ruby>六畳<rt>ろくじょう</rt></ruby>**
 {: .vocab .pairs .compact}
 
 ## 5. Sentence patterns
-{: .new-page}
 
 ### Where is ~?
 
