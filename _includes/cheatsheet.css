@@ -146,6 +146,16 @@ table.connectors td:nth-child(1) { font-size: 8pt; color: var(--ink); width: 11%
 table.connectors td:nth-child(2) { font-weight: bold; white-space: nowrap; }
 table.connectors td:nth-child(3) { width: 24%; }
 
+/* The eight endings: formality | kind | non-past | past */
+table.grid td:nth-child(2) { font-size: 8.5pt; color: var(--muted); width: 20%; }
+table.grid td:nth-child(n+3) { font-size: 12pt; width: 33%; }
+table.grid td:nth-child(n+3) em { font-size: 8.5pt; }
+table.grid tbody tr:nth-child(3) td { border-top: 1.5px solid var(--ink); }
+
+/* One sentence side by side: informal | formal | English */
+table.pair td:nth-child(-n+2) { font-size: 10.5pt; width: 35%; }
+table.pair td:last-child { color: var(--muted); }
+
 /* Callouts */
 blockquote {
   margin: 0.4em 0 0.9em;
@@ -170,6 +180,13 @@ blockquote.formula {
 }
 blockquote.formula p { margin: 0.1em 0; }
 blockquote.formula p + p { font-size: 9pt; color: var(--muted); }
+
+/* Sections of Tae Kim's book (_plugins/taekim.rb): number, title, page */
+p.refs { font-size: 8pt; color: var(--muted); margin: 0.2em 0 0.9em; }
+p.refs strong { color: var(--ink); }
+.taekim { color: var(--ink); text-decoration: none; }
+.taekim .num { font-weight: bold; color: var(--accent); }
+.taekim + .page { white-space: nowrap; }
 
 ul, ol { margin: 0.3em 0 0.8em; padding-left: 1.4em; }
 li { margin-bottom: 0.15em; }

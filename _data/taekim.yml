@@ -1,0 +1,1440 @@
+# The sections of Tae Kim's book, A Guide to Japanese Grammar: each one's
+# title and page, and where the online guide (guidetojapanese.org) has
+# the same section, its address there. Copied from passage-archiver. A
+# topic cites sections with {% taekim 3.2.3 4.1.4 %} (_plugins/taekim.rb);
+# the build stops at a number that is not here.
+
+"0.1":
+  title: Preface
+  page: 9
+
+"1":
+  title: Introduction
+  page: 11
+
+"1.1":
+  title: The problem with conventional textbooks
+  page: 11
+
+"1.2":
+  title: A Japanese guide to learning Japanese grammar
+  page: 12
+
+"1.3":
+  title: Suggestions
+  page: 13
+
+"2":
+  title: The Writing System
+  page: 15
+
+"2.1":
+  title: The Scripts
+  page: 15
+  url: https://guidetojapanese.org/learn/grammar/writing#:~:text=The%20Scripts
+
+"2.2":
+  title: Intonation
+  page: 15
+  url: https://guidetojapanese.org/learn/grammar/writing#:~:text=Intonation
+
+"2.3":
+  title: Hiragana
+  page: 16
+  url: https://guidetojapanese.org/learn/grammar/hiragana
+
+"2.3.1":
+  title: The Muddied Sounds
+  page: 18
+  url: https://guidetojapanese.org/learn/grammar/hiragana#part2
+
+"2.3.2":
+  title: The Small 「や」、「ゆ」、and 「よ」
+  page: 18
+  url: https://guidetojapanese.org/learn/grammar/hiragana#part3
+
+"2.3.3":
+  title: The Small 「つ」
+  page: 19
+  url: https://guidetojapanese.org/learn/grammar/hiragana#part4
+
+"2.3.4":
+  title: The Long Vowel Sound
+  page: 19
+  url: https://guidetojapanese.org/learn/grammar/hiragana#part5
+
+"2.4":
+  title: Katakana
+  page: 20
+  url: https://guidetojapanese.org/learn/grammar/katakana
+
+"2.4.1":
+  title: The Long Vowel Sound
+  page: 22
+  url: https://guidetojapanese.org/learn/grammar/katakana#part2
+
+"2.4.2":
+  title: The Small 「ア、イ、ウ、エ、オ」
+  page: 23
+  url: https://guidetojapanese.org/learn/grammar/katakana#part3
+
+"2.4.3":
+  title: Some examples of words in Katakana
+  page: 24
+  url: https://guidetojapanese.org/learn/grammar/katakana#part4
+
+"2.5":
+  title: Kanji
+  page: 24
+  url: https://guidetojapanese.org/learn/grammar/kanji
+
+"2.5.1":
+  title: What is Kanji?
+  page: 24
+  url: https://guidetojapanese.org/learn/grammar/kanji#part1
+
+"2.5.2":
+  title: Learning Kanji
+  page: 25
+  url: https://guidetojapanese.org/learn/grammar/kanji#part2
+
+"2.5.3":
+  title: Reading Kanji
+  page: 25
+  url: https://guidetojapanese.org/learn/grammar/kanji#part3
+
+"2.5.4":
+  title: Why Kanji?
+  page: 26
+  url: https://guidetojapanese.org/learn/grammar/kanji#part4
+
+"3":
+  title: Basic Grammar
+  page: 29
+
+"3.1":
+  title: Basic Grammatical Structures
+  page: 29
+  url: https://guidetojapanese.org/learn/grammar/basic#:~:text=Basic%20Grammatical%20Structures
+
+"3.2":
+  title: Expressing State-of-Being
+  page: 29
+  url: https://guidetojapanese.org/learn/grammar/stateofbeing
+
+"3.2.1":
+  title: Declaring something is so and so using 「だ」
+  page: 29
+  url: https://guidetojapanese.org/learn/grammar/stateofbeing#:~:text=Declaring%20something%20is%20so%20and%20so%20using%20%E3%80%8C%E3%81%A0%E3%80%8D
+
+"3.2.2":
+  title: Conjugating to the negative state-of-being
+  page: 31
+  url: https://guidetojapanese.org/learn/grammar/stateofbeing#:~:text=Conjugating%20to%20the%20negative%20state%2Dof%2Dbeing
+
+"3.2.3":
+  title: Conjugating to the past state-of-being
+  page: 31
+  url: https://guidetojapanese.org/learn/grammar/stateofbeing#:~:text=Conjugating%20to%20the%20past%20state%2Dof%2Dbeing
+
+"3.2.4":
+  title: Conjugation summary
+  page: 32
+  url: https://guidetojapanese.org/learn/grammar/stateofbeing#:~:text=Conjugation%20summary
+
+"3.3":
+  title: Introduction to Particles
+  page: 33
+  url: https://guidetojapanese.org/learn/grammar/particlesintro
+
+"3.3.1":
+  title: Defining grammatical functions with particles
+  page: 33
+  url: https://guidetojapanese.org/learn/grammar/particlesintro#:~:text=Defining%20grammatical%20functions%20with%20particles
+
+"3.3.2":
+  title: The 「は」 topic particle
+  page: 33
+  url: https://guidetojapanese.org/learn/grammar/particlesintro#:~:text=The%20%E3%80%8C%E3%81%AF%E3%80%8D%20topic%20particle
+
+"3.3.3":
+  title: The 「も」 inclusive topic particle
+  page: 34
+  url: https://guidetojapanese.org/learn/grammar/particlesintro#:~:text=The%20%E3%80%8C%E3%82%82%E3%80%8D%20inclusive%20topic%20particle
+
+"3.3.4":
+  title: The 「が」 identifier particle
+  page: 35
+  url: https://guidetojapanese.org/learn/grammar/particlesintro#:~:text=The%20%E3%80%8C%E3%81%8C%E3%80%8D%20identifier%20particle
+
+"3.4":
+  title: Adjectives
+  page: 37
+  url: https://guidetojapanese.org/learn/grammar/adjectives
+
+"3.4.1":
+  title: Properties of Adjectives
+  page: 37
+  url: https://guidetojapanese.org/learn/grammar/adjectives#:~:text=Properties%20of%20Adjectives
+
+"3.4.2":
+  title: The na-adjective
+  page: 37
+  url: https://guidetojapanese.org/learn/grammar/adjectives#:~:text=The%20na%2Dadjective
+
+"3.4.3":
+  title: The i-adjective
+  page: 39
+  url: https://guidetojapanese.org/learn/grammar/adjectives#:~:text=The%20i%2Dadjective
+
+"3.4.4":
+  title: An annoying exception
+  page: 41
+  url: https://guidetojapanese.org/learn/grammar/adjectives#:~:text=An%20annoying%20exception
+
+"3.5":
+  title: Verb Basics
+  page: 42
+  url: https://guidetojapanese.org/learn/grammar/verbs
+
+"3.5.1":
+  title: Role of Verbs
+  page: 42
+  url: https://guidetojapanese.org/learn/grammar/verbs#part1
+
+"3.5.2":
+  title: Classifying verbs into ru-verbs and u-verbs
+  page: 43
+  url: https://guidetojapanese.org/learn/grammar/verbs#part2
+
+"3.5.3":
+  title: "Appendix: iru/eru u-verbs"
+  page: 44
+  url: https://guidetojapanese.org/learn/grammar/verbs#part3
+
+"3.6":
+  title: Negative Verbs
+  page: 45
+  url: https://guidetojapanese.org/learn/grammar/negativeverbs
+
+"3.6.1":
+  title: Conjugating verbs into the negative
+  page: 45
+  url: https://guidetojapanese.org/learn/grammar/negativeverbs#part2
+
+"3.7":
+  title: Past Tense
+  page: 47
+  url: https://guidetojapanese.org/learn/grammar/past_tense
+
+"3.7.1":
+  title: Past tense for ru-verbs
+  page: 47
+  url: https://guidetojapanese.org/learn/grammar/past_tense#part2
+
+"3.7.2":
+  title: Past tense for u-verbs
+  page: 48
+  url: https://guidetojapanese.org/learn/grammar/past_tense#part3
+
+"3.7.3":
+  title: Past-negative tense for all verbs
+  page: 49
+  url: https://guidetojapanese.org/learn/grammar/past_tense#part4
+
+"3.8":
+  title: Particles used with verbs
+  page: 50
+  url: https://guidetojapanese.org/learn/grammar/verbparticles
+
+"3.8.1":
+  title: The direct object 「を」 particle
+  page: 50
+  url: https://guidetojapanese.org/learn/grammar/verbparticles#part2
+
+"3.8.2":
+  title: The target 「に」 particle
+  page: 51
+  url: https://guidetojapanese.org/learn/grammar/verbparticles#part3
+
+"3.8.3":
+  title: The directional 「へ」 particle
+  page: 53
+  url: https://guidetojapanese.org/learn/grammar/verbparticles#part4
+
+"3.8.4":
+  title: The contextual 「で」 particle
+  page: 54
+  url: https://guidetojapanese.org/learn/grammar/verbparticles#part5
+
+"3.8.5":
+  title: When location is the topic
+  page: 55
+  url: https://guidetojapanese.org/learn/grammar/verbparticles#part6
+
+"3.8.6":
+  title: When direct object is the topic
+  page: 56
+  url: https://guidetojapanese.org/learn/grammar/verbparticles#part7
+
+"3.9":
+  title: Transitive and Intransitive Verbs
+  page: 57
+  url: https://guidetojapanese.org/learn/grammar/in-transitive
+
+"3.9.1":
+  title: Pay attention to particles!
+  page: 57
+  url: https://guidetojapanese.org/learn/grammar/in-transitive#part2
+
+"3.10":
+  title: Descriptive Relative Clauses and Sentence Order
+  page: 58
+  url: https://guidetojapanese.org/learn/grammar/clause
+
+"3.10.1":
+  title: Treating verbs and state-of-being like adjectives
+  page: 58
+  url: https://guidetojapanese.org/learn/grammar/clause#part1
+
+"3.10.2":
+  title: Using state-of-being clauses as adjectives
+  page: 58
+  url: https://guidetojapanese.org/learn/grammar/clause#part2
+
+"3.10.3":
+  title: Using relative verb clauses as adjectives
+  page: 60
+  url: https://guidetojapanese.org/learn/grammar/clause#part3
+
+"3.10.4":
+  title: Japanese Sentence Order
+  page: 61
+  url: https://guidetojapanese.org/learn/grammar/clause#part4
+
+"3.11":
+  title: Noun-related Particles
+  page: 62
+  url: https://guidetojapanese.org/learn/grammar/nounparticles
+
+"3.11.1":
+  title: The last three particles
+  page: 62
+  url: https://guidetojapanese.org/learn/grammar/nounparticles#part1
+
+"3.11.2":
+  title: The Inclusive 「と」 particle
+  page: 62
+  url: https://guidetojapanese.org/learn/grammar/nounparticles#part2
+
+"3.11.3":
+  title: The Vague Listing 「や」 and 「とか」 particles
+  page: 63
+  url: https://guidetojapanese.org/learn/grammar/nounparticles#part3
+
+"3.11.4":
+  title: The 「の」 particle
+  page: 64
+  url: https://guidetojapanese.org/learn/grammar/nounparticles#part4
+
+"3.11.5":
+  title: The 「の」 particle as explanation
+  page: 66
+  url: https://guidetojapanese.org/learn/grammar/nounparticles#part5
+
+"3.12":
+  title: Adverbs and Sentence-ending particles
+  page: 70
+  url: https://guidetojapanese.org/learn/grammar/adverbs
+
+"3.12.1":
+  title: Properties of Adverbs
+  page: 70
+  url: https://guidetojapanese.org/learn/grammar/adverbs#part2
+
+"3.12.2":
+  title: Sentence-ending particles
+  page: 71
+  url: https://guidetojapanese.org/learn/grammar/adverbs#part3
+
+"3.12.3":
+  title: 「ね」 sentence ending
+  page: 72
+  url: https://guidetojapanese.org/learn/grammar/adverbs#part4
+
+"3.12.4":
+  title: 「よ」 sentence ending
+  page: 73
+  url: https://guidetojapanese.org/learn/grammar/adverbs#part5
+
+"3.12.5":
+  title: Combining both to get 「よね」
+  page: 73
+  url: https://guidetojapanese.org/learn/grammar/adverbs#part6
+
+"4":
+  title: Essential Grammar
+  page: 75
+
+"4.1":
+  title: Polite Form and Verb Stems
+  page: 75
+  url: https://guidetojapanese.org/learn/grammar/polite
+
+"4.1.1":
+  title: Not being rude in Japan
+  page: 75
+  url: https://guidetojapanese.org/learn/grammar/polite#part1
+
+"4.1.2":
+  title: The stem of verbs
+  page: 76
+  url: https://guidetojapanese.org/learn/grammar/polite#part2
+
+"4.1.3":
+  title: Using 「〜ます」 to make verbs polite
+  page: 78
+  url: https://guidetojapanese.org/learn/grammar/polite#part3
+
+"4.1.4":
+  title: Using 「です」 for everything else
+  page: 79
+  url: https://guidetojapanese.org/learn/grammar/polite#part4
+
+"4.1.5":
+  title: 「です」 is NOT the same as 「だ」
+  page: 81
+  url: https://guidetojapanese.org/learn/grammar/polite#part5
+
+"4.2":
+  title: Addressing People
+  page: 82
+  url: https://guidetojapanese.org/learn/grammar/people
+
+"4.2.1":
+  title: Referring to yourself
+  page: 82
+  url: https://guidetojapanese.org/learn/grammar/people#part2
+
+"4.2.2":
+  title: Referring to others by name
+  page: 83
+  url: https://guidetojapanese.org/learn/grammar/people#part3
+
+"4.2.3":
+  title: Referring to others with "you"
+  page: 84
+  url: https://guidetojapanese.org/learn/grammar/people#part4
+
+"4.2.4":
+  title: Referring to others in third person
+  page: 84
+  url: https://guidetojapanese.org/learn/grammar/people#part5
+
+"4.2.5":
+  title: Referring to family members
+  page: 85
+  url: https://guidetojapanese.org/learn/grammar/people#part6
+
+"4.3":
+  title: The Question Marker
+  page: 86
+  url: https://guidetojapanese.org/learn/grammar/question
+
+"4.3.1":
+  title: Questions in polite form
+  page: 86
+  url: https://guidetojapanese.org/learn/grammar/question#part1
+
+"4.3.2":
+  title: The question marker in casual speech
+  page: 87
+  url: https://guidetojapanese.org/learn/grammar/question#part2
+
+"4.3.3":
+  title: 「か」 used in relative clauses
+  page: 88
+  url: https://guidetojapanese.org/learn/grammar/question#part3
+
+"4.3.4":
+  title: Using question words
+  page: 89
+  url: https://guidetojapanese.org/learn/grammar/question#part4
+
+"4.4":
+  title: Compound Sentences
+  page: 92
+  url: https://guidetojapanese.org/learn/grammar/compound
+
+"4.4.1":
+  title: Expressing a sequence of states
+  page: 92
+  url: https://guidetojapanese.org/learn/grammar/compound#part2
+
+"4.4.2":
+  title: Expressing a sequence of verbs with the te-form
+  page: 93
+  url: https://guidetojapanese.org/learn/grammar/compound#part3
+
+"4.4.3":
+  title: Expressing reason or causation using 「から」 and 「ので」
+  page: 94
+  url: https://guidetojapanese.org/learn/grammar/compound#part4
+
+"4.4.4":
+  title: Using 「のに」 to mean "despite"
+  page: 97
+  url: https://guidetojapanese.org/learn/grammar/compound#part5
+
+"4.4.5":
+  title: Expressing contradiction using 「が」 and 「けど」
+  page: 97
+  url: https://guidetojapanese.org/learn/grammar/compound#part6
+
+"4.4.6":
+  title: Expressing multiple reasons using 「し」
+  page: 99
+  url: https://guidetojapanese.org/learn/grammar/compound#part7
+
+"4.4.7":
+  title: Expressing multiple actions or states using 「〜たりする」
+  page: 100
+  url: https://guidetojapanese.org/learn/grammar/compound#part8
+
+"4.5":
+  title: Other uses of the te-form
+  page: 101
+  url: https://guidetojapanese.org/learn/grammar/teform
+
+"4.5.1":
+  title: Using 「〜ている」 for enduring states
+  page: 101
+  url: https://guidetojapanese.org/learn/grammar/teform#part2
+
+"4.5.2":
+  title: Enduring state-of-being vs enduring state of action
+  page: 103
+  url: https://guidetojapanese.org/learn/grammar/teform#part3
+
+"4.5.3":
+  title: Using 「〜てある」 for resultant states
+  page: 105
+  url: https://guidetojapanese.org/learn/grammar/teform#part4
+
+"4.5.4":
+  title: Using the 「〜ておく」 form as preparation for the future
+  page: 106
+  url: https://guidetojapanese.org/learn/grammar/teform#part5
+
+"4.5.5":
+  title: Using motion verbs (行く、来る) with the te-form
+  page: 107
+  url: https://guidetojapanese.org/learn/grammar/teform#part6
+
+"4.6":
+  title: Potential Form
+  page: 108
+  url: https://guidetojapanese.org/learn/grammar/potential
+
+"4.6.1":
+  title: Expressing the ability to do something
+  page: 108
+  url: https://guidetojapanese.org/learn/grammar/potential#part1
+
+"4.6.2":
+  title: The Potential Form
+  page: 109
+  url: https://guidetojapanese.org/learn/grammar/potential#part2
+
+"4.6.3":
+  title: Potential forms do not have direct objects
+  page: 110
+  url: https://guidetojapanese.org/learn/grammar/potential#part3
+
+"4.6.4":
+  title: Are 「見える」 and 「聞こえる」 exceptions?
+  page: 111
+  url: https://guidetojapanese.org/learn/grammar/potential#part4
+
+"4.6.5":
+  title: 「ある」, yet another exception
+  page: 112
+  url: https://guidetojapanese.org/learn/grammar/potential#part5
+
+"4.7":
+  title: Using する and なる with the に particle
+  page: 112
+  url: https://guidetojapanese.org/learn/grammar/surunaru
+
+"4.7.1":
+  title: Using 「なる」 and 「する」 for nouns and na-adjectives
+  page: 113
+  url: https://guidetojapanese.org/learn/grammar/surunaru#part2
+
+"4.7.2":
+  title: Using 「なる」 with i-adjectives
+  page: 114
+  url: https://guidetojapanese.org/learn/grammar/surunaru#part3
+
+"4.7.3":
+  title: Using 「なる」 and 「する」 with verbs
+  page: 114
+  url: https://guidetojapanese.org/learn/grammar/surunaru#part4
+
+"4.8":
+  title: Conditionals
+  page: 116
+  url: https://guidetojapanese.org/learn/grammar/conditionals
+
+"4.8.1":
+  title: How to say "if" in Japanese
+  page: 116
+  url: https://guidetojapanese.org/learn/grammar/conditionals#part1
+
+"4.8.2":
+  title: Expressing natural consequence using 「と」
+  page: 116
+  url: https://guidetojapanese.org/learn/grammar/conditionals#part2
+
+"4.8.3":
+  title: Contextual conditionals using 「なら(ば)」
+  page: 117
+  url: https://guidetojapanese.org/learn/grammar/conditionals#part3
+
+"4.8.4":
+  title: General conditionals using 「ば」
+  page: 118
+  url: https://guidetojapanese.org/learn/grammar/conditionals#part4
+
+"4.8.5":
+  title: Past conditional using 「たら(ば)」
+  page: 120
+  url: https://guidetojapanese.org/learn/grammar/conditionals#part5
+
+"4.8.6":
+  title: How does 「もし」 fit into all of this?
+  page: 122
+  url: https://guidetojapanese.org/learn/grammar/conditionals#part6
+
+"4.9":
+  title: Expressing "must" or "have to"
+  page: 122
+  url: https://guidetojapanese.org/learn/grammar/must
+
+"4.9.1":
+  title: When there's something that must or must not be done
+  page: 122
+  url: https://guidetojapanese.org/learn/grammar/must#part1
+
+"4.9.2":
+  title: Using 「だめ」, 「いけない」, and 「ならない」 for things that must not be done
+  page: 122
+  url: https://guidetojapanese.org/learn/grammar/must#part2
+
+"4.9.3":
+  title: Expressing things that must be done
+  page: 123
+  url: https://guidetojapanese.org/learn/grammar/must#part3
+
+"4.9.4":
+  title: Various short-cuts for the lazy
+  page: 125
+  url: https://guidetojapanese.org/learn/grammar/must#part4
+
+"4.9.5":
+  title: Saying something is ok to do or not do
+  page: 126
+  url: https://guidetojapanese.org/learn/grammar/must#part5
+
+"4.10":
+  title: Desire and Suggestions
+  page: 127
+  url: https://guidetojapanese.org/learn/grammar/desire
+
+"4.10.1":
+  title: How to get your way in Japan
+  page: 127
+  url: https://guidetojapanese.org/learn/grammar/desire#part1
+
+"4.10.2":
+  title: Verbs you want to do with 「たい」
+  page: 127
+  url: https://guidetojapanese.org/learn/grammar/desire#part2
+
+"4.10.3":
+  title: Indicating things you want or want done using 「欲しい」
+  page: 129
+  url: https://guidetojapanese.org/learn/grammar/desire#part3
+
+"4.10.4":
+  title: Making a motion to do something using the volitional form
+  page: 130
+  url: https://guidetojapanese.org/learn/grammar/desire#part4
+
+"4.10.5":
+  title: Making a motion to do something using the volitional form
+  page: 131
+  url: https://guidetojapanese.org/learn/grammar/desire#part5
+
+"4.10.6":
+  title: Making Suggestions using the 「ば」 or 「たら」 conditional
+  page: 133
+  url: https://guidetojapanese.org/learn/grammar/desire#part6
+
+"4.11":
+  title: Performing an action on a relative clause
+  page: 133
+  url: https://guidetojapanese.org/learn/grammar/actionclause
+
+"4.11.1":
+  title: The direct quote
+  page: 133
+  url: https://guidetojapanese.org/learn/grammar/actionclause#part2
+
+"4.11.2":
+  title: The interpreted quote
+  page: 134
+  url: https://guidetojapanese.org/learn/grammar/actionclause#part3
+
+"4.11.3":
+  title: Using 「って」 as a casual version of 「と」
+  page: 136
+  url: https://guidetojapanese.org/learn/grammar/actionclause#part4
+
+"4.12":
+  title: Defining and Describing
+  page: 137
+  url: https://guidetojapanese.org/learn/grammar/define
+
+"4.12.1":
+  title: The various uses of 「いう」
+  page: 137
+  url: https://guidetojapanese.org/learn/grammar/define#part1
+
+"4.12.2":
+  title: Using 「いう」 to define
+  page: 137
+  url: https://guidetojapanese.org/learn/grammar/define#part2
+
+"4.12.3":
+  title: Using 「いう」 to describe anything
+  page: 138
+  url: https://guidetojapanese.org/learn/grammar/define#part3
+
+"4.12.4":
+  title: Rephrasing and making conclusions with 「という」
+  page: 140
+  url: https://guidetojapanese.org/learn/grammar/define#part4
+
+"4.12.5":
+  title: Using 「って」 or 「て」 for 「という」
+  page: 141
+  url: https://guidetojapanese.org/learn/grammar/define#part5
+
+"4.12.6":
+  title: Saying 「ゆう」 instead of 「いう」
+  page: 143
+  url: https://guidetojapanese.org/learn/grammar/define#part6
+
+"4.13":
+  title: Trying or attempting to do something
+  page: 144
+  url: https://guidetojapanese.org/learn/grammar/try
+
+"4.13.1":
+  title: Let's try some stuff
+  page: 144
+  url: https://guidetojapanese.org/learn/grammar/try
+
+"4.13.2":
+  title: To try something out
+  page: 144
+  url: https://guidetojapanese.org/learn/grammar/try#part2
+
+"4.13.3":
+  title: To attempt to do something
+  page: 145
+  url: https://guidetojapanese.org/learn/grammar/try#part3
+
+"4.14":
+  title: Giving and Receiving
+  page: 147
+  url: https://guidetojapanese.org/learn/grammar/favors
+
+"4.14.1":
+  title: Japanese people like gifts
+  page: 147
+  url: https://guidetojapanese.org/learn/grammar/favors#part1
+
+"4.14.2":
+  title: When to use 「あげる」
+  page: 147
+  url: https://guidetojapanese.org/learn/grammar/favors#part2
+
+"4.14.3":
+  title: When to use 「くれる」
+  page: 148
+  url: https://guidetojapanese.org/learn/grammar/favors#part3
+
+"4.14.4":
+  title: When to use 「もらう」
+  page: 150
+  url: https://guidetojapanese.org/learn/grammar/favors#part4
+
+"4.14.5":
+  title: Asking favors with 「くれる」 or 「もらえる」
+  page: 151
+  url: https://guidetojapanese.org/learn/grammar/favors#part5
+
+"4.15":
+  title: Making requests
+  page: 153
+  url: https://guidetojapanese.org/learn/grammar/requests
+
+"4.15.1":
+  title: Politely (and not so politely) making requests
+  page: 153
+  url: https://guidetojapanese.org/learn/grammar/requests#part1
+
+"4.15.2":
+  title: 「〜ください」 – a special conjugation of 「くださる」
+  page: 153
+  url: https://guidetojapanese.org/learn/grammar/requests#part2
+
+"4.15.3":
+  title: Using 「〜ちょうだい」 as a casual request
+  page: 155
+  url: https://guidetojapanese.org/learn/grammar/requests#part3
+
+"4.15.4":
+  title: Using 「〜なさい」 to make firm but polite requests
+  page: 155
+  url: https://guidetojapanese.org/learn/grammar/requests#part4
+
+"4.15.5":
+  title: The Command Form
+  page: 156
+  url: https://guidetojapanese.org/learn/grammar/requests#part5
+
+"4.15.6":
+  title: Negative Command
+  page: 158
+  url: https://guidetojapanese.org/learn/grammar/requests#:~:text=Negative%20Command
+
+"4.16":
+  title: Numbers and Counting
+  page: 159
+  url: https://guidetojapanese.org/learn/grammar/numbers
+
+"4.16.1":
+  title: The Number System
+  page: 159
+  url: https://guidetojapanese.org/learn/grammar/numbers#part2
+
+"4.16.2":
+  title: Counting and Counters
+  page: 161
+  url: https://guidetojapanese.org/learn/grammar/numbers#part3
+
+"4.16.3":
+  title: Using 「目」 to show order
+  page: 165
+  url: https://guidetojapanese.org/learn/grammar/numbers#part4
+
+"4.17":
+  title: Casual Patterns and Slang
+  page: 166
+  url: https://guidetojapanese.org/learn/grammar/slang
+
+"4.17.1":
+  title: Basic Principles of Slang
+  page: 166
+  url: https://guidetojapanese.org/learn/grammar/slang#part2
+
+"4.17.2":
+  title: Sentence ordering and particles
+  page: 167
+  url: https://guidetojapanese.org/learn/grammar/slang#part3
+
+"4.17.3":
+  title: Using 「じゃん」 instead of 「じゃない」 to confirm
+  page: 168
+  url: https://guidetojapanese.org/learn/grammar/slang#part4
+
+"4.17.4":
+  title: Using 「つ」 for 「という」
+  page: 170
+  url: https://guidetojapanese.org/learn/grammar/slang#part5
+
+"4.17.5":
+  title: Using 「ってば」 and 「ったら」 to show exasperation
+  page: 172
+  url: https://guidetojapanese.org/learn/grammar/slang#part6
+
+"4.17.6":
+  title: Using 「なんか」 just about everywhere
+  page: 172
+  url: https://guidetojapanese.org/learn/grammar/slang#part7
+
+"4.17.7":
+  title: Showing contempt for an action with 「〜やがる」
+  page: 173
+  url: https://guidetojapanese.org/learn/grammar/slang#part8
+
+"4.18":
+  title: Review and more sentence-ending particles
+  page: 174
+  url: https://guidetojapanese.org/learn/grammar/sentence_ending
+
+"4.18.1":
+  title: 「な」 and 「さ」 sentence-ending particles
+  page: 174
+  url: https://guidetojapanese.org/learn/grammar/sentence_ending#part2
+
+"4.18.2":
+  title: 「かい」 and 「だい」 sentence-ending particles
+  page: 176
+  url: https://guidetojapanese.org/learn/grammar/sentence_ending#:~:text=%E3%80%8C%E3%81%8B%E3%81%84%E3%80%8D%20and%20%E3%80%8C%E3%81%A0%E3%81%84%E3%80%8D%20sentence%2Dending%20particles
+
+"4.18.3":
+  title: Gender-specific sentence-ending particles
+  page: 177
+  url: https://guidetojapanese.org/learn/grammar/sentence_ending#part3
+
+"4.18.4":
+  title: That's a wrap!
+  page: 178
+  url: https://guidetojapanese.org/learn/grammar/sentence_ending#part4
+
+"5":
+  title: Special Expressions
+  page: 183
+
+"5.1":
+  title: Causative and Passive Verbs
+  page: 183
+  url: https://guidetojapanese.org/learn/grammar/causepass
+
+"5.1.1":
+  title: Causative Verbs
+  page: 183
+  url: https://guidetojapanese.org/learn/grammar/causepass#part2
+
+"5.1.2":
+  title: Passive Verbs
+  page: 187
+  url: https://guidetojapanese.org/learn/grammar/causepass#part3
+
+"5.1.3":
+  title: Using passive form to show politeness
+  page: 189
+  url: https://guidetojapanese.org/learn/grammar/causepass#part4
+
+"5.1.4":
+  title: Causative-Passive Forms
+  page: 190
+  url: https://guidetojapanese.org/learn/grammar/causepass#part5
+
+"5.2":
+  title: Honorific and Humble Forms
+  page: 192
+  url: https://guidetojapanese.org/learn/grammar/honorific
+
+"5.2.1":
+  title: Set Expressions
+  page: 192
+  url: https://guidetojapanese.org/learn/grammar/honorific#part2
+
+"5.2.2":
+  title: Other substitutions
+  page: 194
+  url: https://guidetojapanese.org/learn/grammar/honorific#part3
+
+"5.2.3":
+  title: Honorific and Humble Conjugations
+  page: 196
+  url: https://guidetojapanese.org/learn/grammar/honorific#part4
+
+"5.2.4":
+  title: Making honorific requests
+  page: 198
+  url: https://guidetojapanese.org/learn/grammar/honorific#part5
+
+"5.3":
+  title: Things that happen unintentionally
+  page: 200
+  url: https://guidetojapanese.org/learn/grammar/unintended
+
+"5.3.1":
+  title: Using 「しまう」 with other verbs
+  page: 200
+  url: https://guidetojapanese.org/learn/grammar/unintended#part2
+
+"5.3.2":
+  title: Using the casual version of 「〜てしまう」
+  page: 201
+  url: https://guidetojapanese.org/learn/grammar/unintended#part3
+
+"5.3.3":
+  title: Another meaning of 「しまう」
+  page: 202
+  url: https://guidetojapanese.org/learn/grammar/unintended#part4
+
+"5.4":
+  title: Special expressions with generic nouns
+  page: 203
+  url: https://guidetojapanese.org/learn/grammar/genericnouns
+
+"5.4.1":
+  title: Using 「こと」 to say whether something has happened
+  page: 203
+  url: https://guidetojapanese.org/learn/grammar/genericnouns#part2
+
+"5.4.2":
+  title: Using 「ところ」 as an abstract place
+  page: 204
+  url: https://guidetojapanese.org/learn/grammar/genericnouns#part3
+
+"5.4.3":
+  title: Using 「もの」 as a casual feminine way to emphasize
+  page: 205
+  url: https://guidetojapanese.org/learn/grammar/genericnouns#part4
+
+"5.5":
+  title: Expressing various levels of certainty
+  page: 205
+  url: https://guidetojapanese.org/learn/grammar/certainty
+
+"5.5.1":
+  title: Using 「かもしれない」 to express uncertainty
+  page: 205
+  url: https://guidetojapanese.org/learn/grammar/certainty#part2
+
+"5.5.2":
+  title: Using 「でしょう」 to express a fair amount of certainty
+  page: 207
+  url: https://guidetojapanese.org/learn/grammar/certainty#part3
+
+"5.5.3":
+  title: Using 「でしょう」 and 「だろう」 to express strong amount of certainty
+  page: 208
+  url: https://guidetojapanese.org/learn/grammar/certainty#part4
+
+"5.6":
+  title: Expressing amounts
+  page: 209
+  url: https://guidetojapanese.org/learn/grammar/amount
+
+"5.6.1":
+  title: Indicating that's all there is using 「だけ」
+  page: 209
+  url: https://guidetojapanese.org/learn/grammar/amount#part2
+
+"5.6.2":
+  title: Using 「のみ」 as a formal version of 「だけ」
+  page: 211
+  url: https://guidetojapanese.org/learn/grammar/amount#part3
+
+"5.6.3":
+  title: Indication that there's nothing else using 「しか」
+  page: 211
+  url: https://guidetojapanese.org/learn/grammar/amount#part4
+
+"5.6.4":
+  title: Expressing the opposite of 「だけ」 with 「ばかり」
+  page: 214
+  url: https://guidetojapanese.org/learn/grammar/amount#part5
+
+"5.6.5":
+  title: Saying there's too much of something using 「すぎる」
+  page: 215
+  url: https://guidetojapanese.org/learn/grammar/amount#part6
+
+"5.6.6":
+  title: Adding the 「も」 particle to express excessive amounts
+  page: 217
+  url: https://guidetojapanese.org/learn/grammar/amount#part7
+
+"5.6.7":
+  title: Using 「ほど」 to express the extent of something
+  page: 217
+  url: https://guidetojapanese.org/learn/grammar/amount#part8
+
+"5.6.8":
+  title: Using 「〜さ」 with adjectives to indicate an amount
+  page: 219
+  url: https://guidetojapanese.org/learn/grammar/amount#part9
+
+"5.7":
+  title: Various ways to express similarity and hearsay
+  page: 220
+  url: https://guidetojapanese.org/learn/grammar/similarity
+
+"5.7.1":
+  title: Expressing similarity with よう
+  page: 220
+  url: https://guidetojapanese.org/learn/grammar/similarity#part2
+
+"5.7.2":
+  title: Using 「みたい」 to say something looks like something else
+  page: 222
+  url: https://guidetojapanese.org/learn/grammar/similarity#part3
+
+"5.7.3":
+  title: Guessing at an outcome using 「〜そう」
+  page: 223
+  url: https://guidetojapanese.org/learn/grammar/similarity#part4
+
+"5.7.4":
+  title: Expressing hearsay using 「〜そうだ」
+  page: 226
+  url: https://guidetojapanese.org/learn/grammar/similarity#part5
+
+"5.7.5":
+  title: Expressing hearsay or behavior using 「〜らしい」
+  page: 227
+  url: https://guidetojapanese.org/learn/grammar/similarity#part6
+
+"5.7.6":
+  title: "「っぽい」: Slang expression of similarity"
+  page: 228
+  url: https://guidetojapanese.org/learn/grammar/similarity#part7
+
+"5.8":
+  title: Using 方 and よる for comparisons
+  page: 229
+  url: https://guidetojapanese.org/learn/grammar/comparison
+
+"5.8.1":
+  title: Using 「方」 for comparisons
+  page: 229
+  url: https://guidetojapanese.org/learn/grammar/comparison#part2
+
+"5.8.2":
+  title: Using 「より」 for comparisons
+  page: 230
+  url: https://guidetojapanese.org/learn/grammar/comparison#part3
+
+"5.8.3":
+  title: Using 「方」 to express a way to do something
+  page: 232
+  url: https://guidetojapanese.org/learn/grammar/comparison#part4
+
+"5.8.4":
+  title: Using 「によって」 to express dependency
+  page: 233
+  url: https://guidetojapanese.org/learn/grammar/comparison#part5
+
+"5.8.5":
+  title: Indicating a source of information using 「によると」
+  page: 234
+  url: https://guidetojapanese.org/learn/grammar/comparison#part6
+
+"5.9":
+  title: Saying something is easy or difficult to do
+  page: 235
+  url: https://guidetojapanese.org/learn/grammar/easyhard
+
+"5.9.1":
+  title: Variations of 「〜にくい」 with 「〜がたい」 and 「〜づらい」
+  page: 236
+  url: https://guidetojapanese.org/learn/grammar/easyhard#part2
+
+"5.10":
+  title: More negative verbs
+  page: 237
+  url: https://guidetojapanese.org/learn/grammar/negativeverbs2
+
+"5.10.1":
+  title: Doing something without doing something else
+  page: 237
+  url: https://guidetojapanese.org/learn/grammar/negativeverbs2#part2
+
+"5.10.2":
+  title: A casual masculine type of negative that ends in 「ん」
+  page: 239
+  url: https://guidetojapanese.org/learn/grammar/negativeverbs2#part3
+
+"5.10.3":
+  title: A classical negative verb that ends in 「ぬ」
+  page: 241
+  url: https://guidetojapanese.org/learn/grammar/negativeverbs2#part4
+
+"5.11":
+  title: Hypothesizing and Concluding
+  page: 242
+  url: https://guidetojapanese.org/learn/grammar/reasoning
+
+"5.11.1":
+  title: Coming to a conclusion with 「わけ」
+  page: 242
+  url: https://guidetojapanese.org/learn/grammar/reasoning#part2
+
+"5.11.2":
+  title: Making hypotheses with 「とする」
+  page: 244
+  url: https://guidetojapanese.org/learn/grammar/reasoning#part3
+
+"5.12":
+  title: Expressing time-specific actions
+  page: 245
+  url: https://guidetojapanese.org/learn/grammar/timeactions
+
+"5.12.1":
+  title: Expressing what just happened with 「〜ばかり」
+  page: 245
+  url: https://guidetojapanese.org/learn/grammar/timeactions#part2
+
+"5.12.2":
+  title: Express what occurred immediately after with 「とたん」
+  page: 247
+  url: https://guidetojapanese.org/learn/grammar/timeactions#part3
+
+"5.12.3":
+  title: Using 「ながら」 for two concurrent actions
+  page: 248
+  url: https://guidetojapanese.org/learn/grammar/timeactions#part4
+
+"5.12.4":
+  title: Using 「ながら」 with state-of-being
+  page: 249
+  url: https://guidetojapanese.org/learn/grammar/timeactions#part5
+
+"5.12.5":
+  title: To repeat something with reckless abandon using 「まくる」
+  page: 251
+  url: https://guidetojapanese.org/learn/grammar/timeactions#part6
+
+"5.13":
+  title: Leaving something the way it is
+  page: 251
+  url: https://guidetojapanese.org/learn/grammar/nochange
+
+"5.13.1":
+  title: Using 「まま」 to express a lack of change
+  page: 252
+  url: https://guidetojapanese.org/learn/grammar/nochange#part2
+
+"5.13.2":
+  title: Using 「っぱなし」 to leave something the way it is
+  page: 253
+  url: https://guidetojapanese.org/learn/grammar/nochange#part3
+
+"6":
+  title: Advanced Topics
+  page: 255
+
+"6.1":
+  title: Formal Expressions
+  page: 255
+  url: https://guidetojapanese.org/learn/grammar/formal
+
+"6.1.1":
+  title: What do you mean by formal expressions?
+  page: 255
+  url: https://guidetojapanese.org/learn/grammar/formal#part1
+
+"6.1.2":
+  title: Using 「である」 for formal state-of-being
+  page: 255
+  url: https://guidetojapanese.org/learn/grammar/formal#part2
+
+"6.1.3":
+  title: Negative of 「である」
+  page: 256
+  url: https://guidetojapanese.org/learn/grammar/formal#part3
+
+"6.1.4":
+  title: Sequential relative clauses in formal language
+  page: 257
+  url: https://guidetojapanese.org/learn/grammar/formal#part4
+
+"6.2":
+  title: Things that should be a certain way
+  page: 259
+  url: https://guidetojapanese.org/learn/grammar/should
+
+"6.2.1":
+  title: Using 「はず」 to describe an expectation
+  page: 259
+  url: https://guidetojapanese.org/learn/grammar/should#part2
+
+"6.2.2":
+  title: Using 「べき」 to describe actions one should do
+  page: 261
+  url: https://guidetojapanese.org/learn/grammar/should#part3
+
+"6.2.3":
+  title: Using 「べく」 to describe what one tries to do
+  page: 263
+  url: https://guidetojapanese.org/learn/grammar/should#part4
+
+"6.2.4":
+  title: Using 「べからず」 to describe things one must not do
+  page: 264
+  url: https://guidetojapanese.org/learn/grammar/should#part5
+
+"6.3":
+  title: Expressing the minimum expectation
+  page: 265
+  url: https://guidetojapanese.org/learn/grammar/even
+
+"6.3.1":
+  title: Using 「(で)さえ」 to describe the minimum requirement
+  page: 265
+  url: https://guidetojapanese.org/learn/grammar/even#part2
+
+"6.3.2":
+  title: 「(で)すら」 - Older version of 「(で)さえ」
+  page: 268
+  url: https://guidetojapanese.org/learn/grammar/even#part3
+
+"6.3.3":
+  title: 「おろか」 - It's not even worth considering
+  page: 269
+  url: https://guidetojapanese.org/learn/grammar/even#:~:text=%E3%80%8C%E3%81%8A%E3%82%8D%E3%81%8B%E3%80%8D%20%E2%80%93%20It%E2%80%99s%20not%20even%20worth%20considering
+
+"6.4":
+  title: Showing signs of something
+  page: 269
+  url: https://guidetojapanese.org/learn/grammar/signs
+
+"6.4.1":
+  title: Showing outward signs of an emotion using 「〜がる」
+  page: 270
+  url: https://guidetojapanese.org/learn/grammar/signs#part2
+
+"6.4.2":
+  title: Using 「ばかり」 to act as if one might do something
+  page: 272
+  url: https://guidetojapanese.org/learn/grammar/signs#part3
+
+"6.4.3":
+  title: Using 「めく」 to indicate an atmosphere of a state
+  page: 273
+  url: https://guidetojapanese.org/learn/grammar/signs#part4
+
+"6.5":
+  title: Formal expressions of non-feasibility
+  page: 275
+  url: https://guidetojapanese.org/learn/grammar/feasibility
+
+"6.5.1":
+  title: Expressing the inability to not do using 「〜ざるを得ない」
+  page: 275
+  url: https://guidetojapanese.org/learn/grammar/feasibility#part2
+
+"6.5.2":
+  title: Expressing the inability to stop doing something using 「やむを得ない」
+  page: 276
+  url: https://guidetojapanese.org/learn/grammar/feasibility#part3
+
+"6.5.3":
+  title: Expressing what cannot be done with 「〜かねる」
+  page: 277
+  url: https://guidetojapanese.org/learn/grammar/feasibility#part4
+
+"6.6":
+  title: Tendencies
+  page: 279
+  url: https://guidetojapanese.org/learn/grammar/tendency
+
+"6.6.1":
+  title: Saying something is prone to occur using 「〜がち」
+  page: 279
+  url: https://guidetojapanese.org/learn/grammar/tendency#part2
+
+"6.6.2":
+  title: Describing an ongoing occurrence using 「〜つつ」
+  page: 280
+  url: https://guidetojapanese.org/learn/grammar/tendency#part3
+
+"6.6.3":
+  title: Describing a negative tendency using 「きらいがある」
+  page: 282
+  url: https://guidetojapanese.org/learn/grammar/tendency#part4
+
+"6.7":
+  title: Advanced Volitional
+  page: 283
+  url: https://guidetojapanese.org/learn/grammar/volitional2
+
+"6.7.1":
+  title: Negative Volitional
+  page: 283
+  url: https://guidetojapanese.org/learn/grammar/volitional2#part2
+
+"6.7.2":
+  title: Using the volitional to express a lack of relation
+  page: 286
+  url: https://guidetojapanese.org/learn/grammar/volitional2#part3
+
+"6.7.3":
+  title: Using 「であろう」 to express likelihood
+  page: 287
+  url: https://guidetojapanese.org/learn/grammar/volitional2#part4
+
+"6.7.4":
+  title: Using 「かろう」 as volitional for 「い」 endings
+  page: 288
+  url: https://guidetojapanese.org/learn/grammar/volitional2#part5
+
+"6.8":
+  title: Covered by something
+  page: 289
+  url: https://guidetojapanese.org/learn/grammar/covered
+
+"6.8.1":
+  title: Using 「だらけ」 when an object is riddled everywhere with something
+  page: 290
+  url: https://guidetojapanese.org/learn/grammar/covered#part2
+
+"6.8.2":
+  title: Using 「まみれ」 to describe a covering
+  page: 291
+  url: https://guidetojapanese.org/learn/grammar/covered#part3
+
+"6.8.3":
+  title: 「ずくめ」 to express entirety
+  page: 292
+  url: https://guidetojapanese.org/learn/grammar/covered#part4
+
+"6.9":
+  title: Advanced proximity of actions
+  page: 293
+  url: https://guidetojapanese.org/learn/grammar/immedate
+
+"6.9.1":
+  title: Using 「が早いか」 to describe the instant something occurred
+  page: 293
+  url: https://guidetojapanese.org/learn/grammar/immedate#part2
+
+"6.9.2":
+  title: Using 「や／や否や」 to describe what happened right after
+  page: 294
+  url: https://guidetojapanese.org/learn/grammar/immedate#part3
+
+"6.9.3":
+  title: Using 「そばから」 to describe an event that repeatedly occurs soon after
+  page: 295
+  url: https://guidetojapanese.org/learn/grammar/immedate#part4
+
+"6.10":
+  title: Others
+  page: 296
+  url: https://guidetojapanese.org/learn/grammar/other
+
+"6.10.1":
+  title: Using 「思いきや」 to describe something unexpected
+  page: 297
+  url: https://guidetojapanese.org/learn/grammar/other#part2
+
+"6.10.2":
+  title: Using 「〜がてら」 to do two things at one time
+  page: 297
+  url: https://guidetojapanese.org/learn/grammar/other#part3
+
+"6.10.3":
+  title: Using 「〜あげく(挙句)」 to describe a bad result
+  page: 298
+  url: https://guidetojapanese.org/learn/grammar/other#part4
