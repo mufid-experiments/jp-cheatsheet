@@ -17,14 +17,6 @@ make clean
 Needs Ruby with Jekyll (`bundle install`) and Chrome (or Brave/Chromium;
 override with `CHROME=/path/to/chrome`).
 
-## Publishing
-
-Every push to `main` runs `.github/workflows/pages.yml`, which does a full
-build and deploys `build/` (HTML, PDF and an `index.html`) to
-<https://mufid-experiments.github.io/jp-cheatsheet/>. Pull requests only
-check that the build passes. One-time setup: Settings -> Pages -> Source =
-"GitHub Actions".
-
 ## Topics
 
 Each file in `topics/` is one cheatsheet: `topics/<name>.md` -> `build/<name>.pdf`.
