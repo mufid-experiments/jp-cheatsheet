@@ -8,6 +8,10 @@ title_ja: '<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>部屋<rt>へや</rt
 > **<ruby>会社<rt>かいしゃ</rt></ruby>** = the company (also the workplace) ・ **<ruby>事務所<rt>じむしょ</rt></ruby>** = an office (the room or small branch) ・ **オフィス** = the modern word for the office space.
 > **<ruby>職場<rt>しょくば</rt></ruby>** = the workplace, where you work day to day.
 
+<figure class="illustration" markdown="0">
+{% include rooms-office.svg %}
+</figure>
+
 ### Where work happens
 
 | Room | English | Also said | Things you find there |
@@ -157,7 +161,6 @@ title_ja: '<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>部屋<rt>へや</rt
 {: .vocab .pairs .compact}
 
 ## 5. Sentence patterns
-{: .new-page}
 
 ### Where is ~?
 
