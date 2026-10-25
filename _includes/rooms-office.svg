@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 20 920 326" role="img" aria-label="Cutaway of a three-storey office building with every room labelled in Japanese">
+  <style>
+    .ro-jp { font-size: 15px; font-weight: bold; fill: #24364f; text-anchor: middle; }
+    .ro-jp.sm { font-size: 13px; }
+    .ro-jp.xs { font-size: 10px; }
+    .ro-rd { font-size: 9px; fill: #666; text-anchor: middle; }
+    .ro-en { font-size: 9px; fill: #666; text-anchor: middle; font-style: italic; }
+    .ro-w  { fill: #fff; text-anchor: middle; }
+    .ro-room { stroke: #24364f; stroke-width: 1.8; }
+    .ro-line { fill: none; stroke: #24364f; stroke-width: 1.4; stroke-linecap: round; }
+  </style>
+
+  <!-- sky, sun, ground -->
+  <circle cx="880" cy="52" r="24" fill="#b3262d"/>
+  <rect x="0" y="330" width="920" height="16" fill="#dfe8d5"/>
+  <line x1="0" y1="330" x2="920" y2="330" stroke="#24364f" stroke-width="2"/>
+
+  <!-- floor tags -->
+  <g>
+    <rect x="8" y="86" width="50" height="38" rx="9" fill="#24364f"/>
+    <text class="ro-w" x="33" y="103" font-size="14" font-weight="bold">三階</text>
+    <text class="ro-w" x="33" y="117" font-size="10">3F</text>
+    <rect x="8" y="176" width="50" height="38" rx="9" fill="#24364f"/>
+    <text class="ro-w" x="33" y="193" font-size="14" font-weight="bold">二階</text>
+    <text class="ro-w" x="33" y="207" font-size="10">2F</text>
+    <rect x="8" y="266" width="50" height="38" rx="9" fill="#24364f"/>
+    <text class="ro-w" x="33" y="283" font-size="14" font-weight="bold">一階</text>
+    <text class="ro-w" x="33" y="297" font-size="10">1F</text>
+  </g>
+
+  <!-- 3F rooms -->
+  <rect class="ro-room" x="70"  y="60" width="135" height="90" fill="#f3ecf7"/>
+  <rect class="ro-room" x="205" y="60" width="50"  height="90" fill="#f4f6f9"/>
+  <rect class="ro-room" x="255" y="60" width="70"  height="90" fill="#eceff3"/>
+  <rect x="325" y="60" width="60" height="90" fill="#f4f6f9" stroke="#24364f" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <rect class="ro-room" x="385" y="60" width="125" height="90" fill="#eef4fb"/>
+  <rect class="ro-room" x="510" y="60" width="100" height="90" fill="#fdf3dc"/>
+  <rect class="ro-room" x="610" y="60" width="80"  height="90" fill="#e8f1e4"/>
+
+  <!-- 2F rooms -->
+  <rect class="ro-room" x="70"  y="150" width="135" height="90" fill="#fdf0ee"/>
+  <rect class="ro-room" x="205" y="150" width="50"  height="90" fill="#f4f6f9"/>
+  <rect class="ro-room" x="255" y="150" width="70"  height="90" fill="#eceff3"/>
+  <rect class="ro-room" x="325" y="150" width="220" height="90" fill="#eef4fb"/>
+  <rect class="ro-room" x="545" y="150" width="75"  height="90" fill="#f4f6f9"/>
+  <rect class="ro-room" x="620" y="150" width="70"  height="90" fill="#e1eef8"/>
+
+  <!-- 1F rooms -->
+  <rect class="ro-room" x="70"  y="240" width="135" height="90" fill="#f3e9df"/>
+  <rect class="ro-room" x="205" y="240" width="50"  height="90" fill="#f4f6f9"/>
+  <rect class="ro-room" x="255" y="240" width="70"  height="90" fill="#eceff3"/>
+  <rect class="ro-room" x="325" y="240" width="110" height="90" fill="#fdf3dc"/>
+  <rect class="ro-room" x="435" y="240" width="75"  height="90" fill="#f3ecf7"/>
+  <rect class="ro-room" x="510" y="240" width="50"  height="90" fill="#f4f6f9"/>
+  <rect class="ro-room" x="560" y="240" width="60"  height="90" fill="#fdf0ee"/>
+  <rect class="ro-room" x="620" y="240" width="70"  height="90" fill="#e8f1e4"/>
+
+  <!-- roof sign -->
+  <rect x="58" y="38" width="644" height="22" rx="3" fill="#b3262d" stroke="#24364f" stroke-width="1.8"/>
+  <text class="ro-w" x="380" y="54" font-size="13" font-weight="bold">会社<tspan font-size="9" font-weight="normal"> かいしゃ ・ company</tspan></text>
+
+  <!-- emergency door, sign and outside stairs -->
+  <text x="696" y="94" font-size="9" fill="#666">ひじょうぐち ・ emergency exit</text>
+  <rect x="696" y="100" width="40" height="15" rx="2" fill="#2e8b57" stroke="#24364f" stroke-width="1.2"/>
+  <text class="ro-w" x="716" y="111" font-size="10" font-weight="bold">非常口</text>
+  <rect x="686" y="118" width="8" height="32" fill="#a77c52" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="690" y="150" width="28" height="3" fill="#24364f"/>
+  <rect x="738" y="240" width="36" height="3" fill="#24364f"/>
+  <path d="M716 153L766 240M742 243L708 330" stroke="#9aa7b5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M716 153L766 240M742 243L708 330" stroke="#fff" stroke-width="5" stroke-dasharray="2 5"/>
+  <text class="ro-jp sm" x="800" y="176">非常階段</text>
+  <text class="ro-rd" x="800" y="188">ひじょうかいだん</text>
+  <text class="ro-en" x="800" y="199">emergency stairs</text>
+
+  <!-- ===== 3F labels + furniture ===== -->
+  <!-- 社長室 -->
+  <text class="ro-jp" x="137" y="82">社長室</text>
+  <text class="ro-rd" x="137" y="94">しゃちょうしつ</text>
+  <text class="ro-en" x="137" y="105">president's office</text>
+  <rect x="96" y="120" width="18" height="16" rx="6" fill="#b3262d" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="88" y="134" width="56" height="5" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M92 139v11M140 139v11"/>
+  <rect x="122" y="123" width="14" height="10" fill="#24364f"/>
+  <rect x="124" y="125" width="10" height="6" fill="#5b8fc7"/>
+  <circle cx="168" cy="138" r="6" fill="#6aa66a" stroke="#24364f" stroke-width="1.2"/>
+  <circle cx="182" cy="138" r="6" fill="#6aa66a" stroke="#24364f" stroke-width="1.2"/>
+  <circle cx="175" cy="131" r="9" fill="#6aa66a" stroke="#24364f" stroke-width="1.2"/>
+  <circle cx="175" cy="136" r="7" fill="#6aa66a"/>
+  <rect x="168" y="140" width="14" height="10" fill="#a77c52" stroke="#24364f" stroke-width="1.2"/>
+
+  <!-- 階段 (3F) -->
+  <path class="ro-line" d="M209 148h8v-6h8v-6h8v-6h8v-6h8v-6"/>
+
+  <!-- エレベーター (3F) -->
+  <rect x="275" y="108" width="30" height="42" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M290 108v42"/>
+  <circle cx="314" cy="126" r="2.5" fill="#b3262d"/>
+
+  <!-- 廊下 -->
+  <text class="ro-jp" x="355" y="82">廊下</text>
+  <text class="ro-rd" x="355" y="94">ろうか</text>
+  <text class="ro-en" x="355" y="105">hallway</text>
+  <rect x="343" y="128" width="10" height="22" rx="4" fill="#b3262d" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="345" y="123" width="6" height="5" fill="#24364f"/>
+  <path class="ro-line" d="M353 133q8 2 6 16"/>
+
+  <!-- 会議室 -->
+  <text class="ro-jp" x="447" y="82">会議室</text>
+  <text class="ro-rd" x="447" y="94">かいぎしつ</text>
+  <text class="ro-en" x="447" y="105">meeting room</text>
+  <rect x="393" y="114" width="34" height="16" fill="#fff" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M397 120h18M397 125h12"/>
+  <rect x="470" y="112" width="20" height="7" rx="1" fill="#24364f"/>
+  <rect x="404" y="134" width="86" height="5" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M410 139v11M484 139v11"/>
+  <rect x="393" y="140" width="8" height="10" rx="2" fill="#8a7bb0" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="493" y="140" width="8" height="10" rx="2" fill="#8a7bb0" stroke="#24364f" stroke-width="1.2"/>
+
+  <!-- 応接室 -->
+  <text class="ro-jp" x="560" y="82">応接室</text>
+  <text class="ro-rd" x="560" y="94">おうせつしつ</text>
+  <text class="ro-en" x="560" y="105">reception room</text>
+  <rect x="518" y="124" width="12" height="26" rx="5" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="518" y="138" width="46" height="12" rx="5" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="572" y="138" width="32" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M575 142v8M601 142v8"/>
+  <rect x="582" y="132" width="7" height="6" rx="1" fill="#fff" stroke="#24364f" stroke-width="1"/>
+
+  <!-- 資料室 -->
+  <text class="ro-jp" x="650" y="82">資料室</text>
+  <text class="ro-rd" x="650" y="94">しりょうしつ</text>
+  <text class="ro-en" x="650" y="105">document room</text>
+  <rect x="618" y="112" width="28" height="38" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="652" y="112" width="28" height="38" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M618 124h28M618 137h28M652 124h28M652 137h28"/>
+  <g stroke-width="4">
+    <path d="M622 123v-9" stroke="#b3262d"/><path d="M627 123v-8" stroke="#5b8fc7"/><path d="M632 123v-9" stroke="#f0c04d"/><path d="M637 123v-8" stroke="#24364f"/>
+    <path d="M622 136v-9" stroke="#5b8fc7"/><path d="M627 136v-8" stroke="#b3262d"/><path d="M632 136v-9" stroke="#24364f"/><path d="M637 136v-8" stroke="#f0c04d"/>
+    <path d="M622 149v-9" stroke="#f0c04d"/><path d="M627 149v-8" stroke="#24364f"/><path d="M632 149v-9" stroke="#b3262d"/><path d="M637 149v-8" stroke="#5b8fc7"/>
+    <path d="M656 123v-9" stroke="#5b8fc7"/><path d="M662 123v-9" stroke="#5b8fc7"/><path d="M668 123v-9" stroke="#b3262d"/><path d="M674 123v-9" stroke="#5b8fc7"/>
+    <path d="M656 136v-9" stroke="#b3262d"/><path d="M662 136v-9" stroke="#f0c04d"/><path d="M668 136v-9" stroke="#f0c04d"/><path d="M674 136v-9" stroke="#24364f"/>
+    <path d="M656 149v-9" stroke="#24364f"/><path d="M662 149v-9" stroke="#b3262d"/><path d="M668 149v-9" stroke="#5b8fc7"/><path d="M674 149v-9" stroke="#f0c04d"/>
+  </g>
+
+  <!-- ===== 2F labels + furniture ===== -->
+  <!-- 休憩室 -->
+  <text class="ro-jp" x="137" y="172">休憩室</text>
+  <text class="ro-rd" x="137" y="184">きゅうけいしつ</text>
+  <text class="ro-en" x="137" y="195">break room</text>
+  <rect x="83" y="226" width="7" height="14" rx="2" fill="#8a7bb0" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="134" y="226" width="7" height="14" rx="2" fill="#8a7bb0" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="92" y="222" width="40" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M96 226v14M128 226v14"/>
+  <rect x="150" y="224" width="46" height="16" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="156" y="210" width="20" height="14" rx="1" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="159" y="213" width="9" height="8" fill="#5b8fc7" stroke="#24364f" stroke-width="1"/>
+  <circle cx="172" cy="215" r="1.3" fill="#24364f"/><circle cx="172" cy="219" r="1.3" fill="#24364f"/>
+
+  <!-- 階段 (2F) -->
+  <text class="ro-jp sm" x="230" y="172">階段</text>
+  <text class="ro-rd" x="230" y="184">かいだん</text>
+  <text class="ro-en" x="230" y="195">stairs</text>
+  <path class="ro-line" d="M249 238h-8v-6h-8v-6h-8v-6h-8v-6h-8v-6"/>
+
+  <!-- エレベーター (2F) -->
+  <text class="ro-jp xs" x="290" y="172">エレベーター</text>
+  <text class="ro-en" x="290" y="184">elevator</text>
+  <rect x="275" y="198" width="30" height="42" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M290 198v42"/>
+  <circle cx="314" cy="216" r="2.5" fill="#b3262d"/>
+
+  <!-- 事務所 -->
+  <text class="ro-jp" x="435" y="172">事務所</text>
+  <text class="ro-rd" x="435" y="184">じむしょ</text>
+  <text class="ro-en" x="435" y="195">office</text>
+  <rect x="335" y="224" width="42" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M338 228v12M374 228v12"/>
+  <rect x="347" y="211" width="16" height="11" fill="#24364f"/><rect x="349" y="213" width="12" height="7" fill="#5b8fc7"/><rect x="353" y="222" width="4" height="2" fill="#24364f"/>
+  <rect x="387" y="224" width="42" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M390 228v12M426 228v12"/>
+  <rect x="399" y="211" width="16" height="11" fill="#24364f"/><rect x="401" y="213" width="12" height="7" fill="#5b8fc7"/><rect x="405" y="222" width="4" height="2" fill="#24364f"/>
+  <rect x="417" y="219" width="8" height="5" rx="1" fill="#b3262d" stroke="#24364f" stroke-width="1"/>
+  <rect x="439" y="224" width="42" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M442 228v12M478 228v12"/>
+  <rect x="451" y="211" width="16" height="11" fill="#24364f"/><rect x="453" y="213" width="12" height="7" fill="#5b8fc7"/><rect x="457" y="222" width="4" height="2" fill="#24364f"/>
+  <rect x="491" y="224" width="42" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M494 228v12M530 228v12"/>
+  <rect x="503" y="211" width="16" height="11" fill="#24364f"/><rect x="505" y="213" width="12" height="7" fill="#5b8fc7"/><rect x="509" y="222" width="4" height="2" fill="#24364f"/>
+  <rect x="521" y="219" width="8" height="5" rx="1" fill="#b3262d" stroke="#24364f" stroke-width="1"/>
+
+  <!-- コピー室 -->
+  <text class="ro-jp sm" x="582" y="172">コピー室</text>
+  <text class="ro-en" x="582" y="184">copy room</text>
+  <rect x="553" y="208" width="30" height="32" rx="2" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="553" y="205" width="30" height="5" fill="#24364f"/>
+  <rect x="558" y="231" width="20" height="5" fill="#fff" stroke="#24364f" stroke-width="1"/>
+  <rect x="583" y="224" width="10" height="5" fill="#fff" stroke="#24364f" stroke-width="1"/>
+  <rect x="595" y="216" width="18" height="24" rx="2" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M599 223h10"/>
+
+  <!-- 給湯室 -->
+  <text class="ro-jp sm" x="655" y="172">給湯室</text>
+  <text class="ro-rd" x="655" y="184">きゅうとうしつ</text>
+  <text class="ro-en" x="655" y="195">pantry</text>
+  <rect x="628" y="204" width="22" height="36" rx="2" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M628 218h22M646 209v5M646 223v8"/>
+  <rect x="656" y="226" width="28" height="14" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="662" y="213" width="12" height="13" rx="3" fill="#b3262d" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M674 218h5"/>
+
+  <!-- ===== 1F labels + furniture ===== -->
+  <!-- ロビー + 受付 -->
+  <text class="ro-jp" x="105" y="262">ロビー</text>
+  <text class="ro-en" x="105" y="274">lobby</text>
+  <text class="ro-jp sm" x="172" y="262">受付</text>
+  <text class="ro-rd" x="172" y="274">うけつけ</text>
+  <text class="ro-en" x="172" y="285">reception desk</text>
+  <rect x="66" y="292" width="8" height="38" fill="#cfe3f3" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="78" y="302" width="10" height="28" rx="5" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="78" y="316" width="42" height="14" rx="5" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <circle cx="131" cy="314" r="8" fill="#6aa66a" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="126" y="320" width="10" height="10" fill="#a77c52" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="150" y="306" width="52" height="24" fill="#c9a27a" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="148" y="303" width="56" height="4" fill="#a77c52" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="180" y="297" width="12" height="6" rx="1" fill="#24364f"/>
+
+  <!-- 階段 (1F) -->
+  <path class="ro-line" d="M209 328h8v-6h8v-6h8v-6h8v-6h8v-6"/>
+
+  <!-- エレベーター (1F) -->
+  <rect x="275" y="288" width="30" height="42" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M290 288v42"/>
+  <circle cx="314" cy="306" r="2.5" fill="#b3262d"/>
+
+  <!-- 食堂 -->
+  <text class="ro-jp" x="380" y="262">食堂</text>
+  <text class="ro-rd" x="380" y="274">しょくどう</text>
+  <text class="ro-en" x="380" y="285">cafeteria</text>
+  <path d="M344 308h12q0 6-6 6t-6-6z" fill="#fff" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="336" y="314" width="28" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M340 318v12M360 318v12"/>
+  <path d="M376 308h12q0 6-6 6t-6-6z" fill="#fff" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="368" y="314" width="28" height="4" fill="#c9a27a" stroke="#24364f" stroke-width="1.2"/>
+  <path class="ro-line" d="M372 318v12M392 318v12"/>
+  <rect x="402" y="296" width="24" height="34" rx="2" fill="#b3262d" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="406" y="300" width="16" height="8" fill="#fff"/>
+  <circle cx="409" cy="314" r="1.6" fill="#fff"/><circle cx="415" cy="314" r="1.6" fill="#fff"/><circle cx="421" cy="314" r="1.6" fill="#fff"/>
+  <circle cx="409" cy="319" r="1.6" fill="#fff"/><circle cx="415" cy="319" r="1.6" fill="#fff"/><circle cx="421" cy="319" r="1.6" fill="#fff"/>
+  <rect x="408" y="324" width="12" height="3" fill="#24364f"/>
+
+  <!-- 更衣室 -->
+  <text class="ro-jp" x="472" y="262">更衣室</text>
+  <text class="ro-rd" x="472" y="274">こういしつ</text>
+  <text class="ro-en" x="472" y="285">changing room</text>
+  <rect x="443" y="296" width="14" height="34" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="457" y="296" width="14" height="34" fill="#5b8fc7" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="471" y="296" width="14" height="34" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="485" y="296" width="14" height="34" fill="#5b8fc7" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M446 301h8M460 301h8M474 301h8M488 301h8"/>
+  <circle cx="454" cy="314" r="1.4" fill="#24364f"/><circle cx="468" cy="314" r="1.4" fill="#24364f"/><circle cx="482" cy="314" r="1.4" fill="#24364f"/><circle cx="496" cy="314" r="1.4" fill="#24364f"/>
+
+  <!-- トイレ -->
+  <text class="ro-jp sm" x="535" y="262">トイレ</text>
+  <text class="ro-en" x="535" y="274">toilet</text>
+  <g transform="translate(120 50)">
+    <rect x="398" y="248" width="12" height="16" rx="2" fill="#fff" stroke="#24364f" stroke-width="1.3"/>
+    <path d="M398 266h30q0 14-14 14h-12z" fill="#fff" stroke="#24364f" stroke-width="1.3" stroke-linejoin="round"/>
+    <rect x="400" y="264" width="12" height="3" fill="#fff" stroke="#24364f" stroke-width="1"/>
+  </g>
+
+  <!-- 喫煙室 -->
+  <text class="ro-jp sm" x="590" y="262">喫煙室</text>
+  <text class="ro-rd" x="590" y="274">きつえんしつ</text>
+  <text class="ro-en" x="590" y="285">smoking room</text>
+  <rect x="587" y="308" width="6" height="22" fill="#9aa7b5" stroke="#24364f" stroke-width="1.2"/>
+  <rect x="578" y="298" width="24" height="10" rx="2" fill="#8fb3d9" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M584 303h12"/>
+  <circle cx="608" cy="316" r="7" fill="#fff" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M608 310v12M602 316h12"/>
+
+  <!-- 倉庫 -->
+  <text class="ro-jp" x="655" y="262">倉庫</text>
+  <text class="ro-rd" x="655" y="274">そうこ</text>
+  <text class="ro-en" x="655" y="285">storeroom</text>
+  <rect x="626" y="316" width="24" height="14" fill="#d9b98f" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="652" y="316" width="26" height="14" fill="#d9b98f" stroke="#24364f" stroke-width="1.3"/>
+  <rect x="636" y="302" width="26" height="14" fill="#d9b98f" stroke="#24364f" stroke-width="1.3"/>
+  <path class="ro-line" d="M638 316v-4M650 316v-4M630 330v-8M662 330v-8"/>
+  <path d="M636 309h26M626 323h24M652 323h26" fill="none" stroke="#a77c52" stroke-width="2"/>
+
+  <!-- 駐車場 -->
+  <text class="ro-jp" x="868" y="232">駐車場</text>
+  <text class="ro-rd" x="868" y="244">ちゅうしゃじょう</text>
+  <text class="ro-en" x="868" y="255">parking lot</text>
+  <rect x="812" y="272" width="3" height="58" fill="#24364f"/>
+  <rect x="803" y="262" width="22" height="22" rx="3" fill="#5b8fc7" stroke="#24364f" stroke-width="1.2"/>
+  <text class="ro-w" x="814" y="279" font-size="16" font-weight="bold">P</text>
+  <rect x="834" y="308" width="76" height="16" rx="5" fill="#f0c04d" stroke="#24364f" stroke-width="1.3"/>
+  <path d="M848 308l8-10h34l8 10z" fill="#dfe7ef" stroke="#24364f" stroke-width="1.3" stroke-linejoin="round"/>
+  <circle cx="850" cy="325" r="6" fill="#24364f"/><circle cx="894" cy="325" r="6" fill="#24364f"/>
+</svg>
