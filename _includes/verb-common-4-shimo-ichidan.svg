@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 192" role="img" aria-label="Pictogram highlights for shimo-ichidan verbs">
+  <style>
+    .vi-l { fill:none; stroke:#24364f; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-a { fill:none; stroke:#b3262d; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-f { fill:#24364f; stroke:none; }
+    .vi-fa { fill:#b3262d; stroke:none; }
+    .vi-card { fill:#f4f6f9; stroke:#dfe3ea; stroke-width:1.5; }
+    .vi-kanji { font-size:17px; font-weight:bold; fill:#24364f; text-anchor:middle; }
+    .vi-rd { font-size:10px; fill:#666; text-anchor:middle; }
+    .vi-mn { font-size:9px; fill:#666; font-style:italic; text-anchor:middle; }
+
+  </style>
+
+  <g transform="translate(10,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-a" d="M10 35 q10 -8 20 0 q10 8 20 0 q10 -8 20 0 q10 8 20 0"/><path class="vi-a" d="M10 50 q10 -8 20 0 q10 8 20 0 q10 -8 20 0 q10 8 20 0"/><path class="vi-a" d="M10 65 q10 -8 20 0 q10 8 20 0 q10 -8 20 0 q10 8 20 0"/></svg>
+    <text class="vi-rd" x="75.0" y="104">ながれる</text>
+    <text class="vi-kanji" x="75.0" y="124">流れる</text>
+    <text class="vi-mn" x="75.0" y="140">flow</text>
+  </g>
+  <g transform="translate(172,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="45" cy="45" r="20"/><path class="vi-l" d="M36 50 h8 M52 50 h8"/><path class="vi-l" d="M36 62 q9 -4 18 0"/><path class="vi-a" d="M68 20 q11 -8 21 0 q7 6 0 13 q-10 6 -21 0 q-7 -6 0 -13 z" stroke-dasharray="4 3"/><path class="vi-a" d="M74 24 l9 9 M83 24 l-9 9"/></svg>
+    <text class="vi-rd" x="75.0" y="104">つかれる</text>
+    <text class="vi-kanji" x="75.0" y="124">疲れる</text>
+    <text class="vi-mn" x="75.0" y="140">get tired</text>
+  </g>
+  <g transform="translate(334,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M30 20 h30 v50 h-30 z"/><path class="vi-a" d="M68 25 q-6 6 0 12 q6 6 0 12"/><path class="vi-a" d="M80 25 q-6 6 0 12 q6 6 0 12"/></svg>
+    <text class="vi-rd" x="75.0" y="104">ぬれる</text>
+    <text class="vi-kanji" x="75.0" y="124">ぬれる</text>
+    <text class="vi-mn" x="75.0" y="140">get wet</text>
+  </g>
+  <g transform="translate(496,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="28" cy="36" r="9"/><path class="vi-l" d="M28 46 v18 M28 52 l-10 14 M28 52 l10 10"/><circle class="vi-l" cx="72" cy="36" r="9"/><path class="vi-l" d="M72 46 v18 M72 52 l10 14 M72 52 l-10 10"/><path class="vi-a" d="M38 46 h24"/><path class="vi-a" d="M54 40 l8 6 l-8 6"/></svg>
+    <text class="vi-rd" x="75.0" y="104">むかえる</text>
+    <text class="vi-kanji" x="75.0" y="124">迎える</text>
+    <text class="vi-mn" x="75.0" y="140">welcome, pick up</text>
+  </g>
+</svg>
