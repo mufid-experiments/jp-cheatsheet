@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 378" role="img" aria-label="Pictograms for shimo-ichidan verbs">
+  <style>
+    .vi-l { fill:none; stroke:#24364f; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-a { fill:none; stroke:#b3262d; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+    .vi-f { fill:#24364f; stroke:none; }
+    .vi-fa { fill:#b3262d; stroke:none; }
+    .vi-card { fill:#f4f6f9; stroke:#dfe3ea; stroke-width:1.5; }
+    .vi-kanji { font-size:17px; font-weight:bold; fill:#24364f; text-anchor:middle; }
+    .vi-rd { font-size:10px; fill:#666; text-anchor:middle; }
+    .vi-mn { font-size:9px; fill:#666; font-style:italic; text-anchor:middle; }
+
+  </style>
+
+  <g transform="translate(10,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><rect class="vi-l" x="16" y="46" width="48" height="19" rx="5"/><circle class="vi-f" cx="29" cy="68" r="6"/><circle class="vi-f" cx="57" cy="68" r="6"/><rect class="vi-l" x="26" y="34" width="22" height="14" rx="3"/><path class="vi-a" d="M76 32 v40"/></svg>
+    <text class="vi-rd" x="75.0" y="104">とめる</text>
+    <text class="vi-kanji" x="75.0" y="124">止める</text>
+    <text class="vi-mn" x="75.0" y="140">stop (sth)</text>
+  </g>
+  <g transform="translate(172,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M28 24 q9 15 14 19 q5 -4 9 -1 l13 13 q4 5 -2 11 q-6 6 -16 1 q-21 -11 -31 -32 q-5 -10 1 -16 q5 -5 12 5 z"/></svg>
+    <text class="vi-rd" x="75.0" y="104">かける</text>
+    <text class="vi-kanji" x="75.0" y="124">掛ける</text>
+    <text class="vi-mn" x="75.0" y="140">hang, call</text>
+  </g>
+  <g transform="translate(334,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><rect class="vi-l" x="30" y="18" width="40" height="30" rx="2"/><circle class="vi-l" cx="43" cy="30" r="5"/><path class="vi-l" d="M34 48 l6 14"/><path class="vi-l" d="M66 48 l-6 14"/><path class="vi-l" d="M20 72 l14 -10"/><path class="vi-l" d="M80 72 l-14 -10"/></svg>
+    <text class="vi-rd" x="75.0" y="104">みせる</text>
+    <text class="vi-kanji" x="75.0" y="124">見せる</text>
+    <text class="vi-mn" x="75.0" y="140">show</text>
+  </g>
+  <g transform="translate(496,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="50" cy="55" r="14"/><path class="vi-a" d="M22 27 l15 15 M78 27 l-15 15 M22 83 l15 -15 M78 83 l-15 -15"/></svg>
+    <text class="vi-rd" x="75.0" y="104">あつめる</text>
+    <text class="vi-kanji" x="75.0" y="124">集める</text>
+    <text class="vi-mn" x="75.0" y="140">collect</text>
+  </g>
+  <g transform="translate(658,10)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><ellipse class="vi-l" cx="50" cy="56" rx="19" ry="24"/><path class="vi-l" d="M42 40 l6 9 l-5 8 l7 9"/><path class="vi-fa" d="M50 12 l3 7 l7 1 l-5 5 l1 7 l-6 -4 l-6 4 l1 -7 l-5 -5 l7 -1 z"/></svg>
+    <text class="vi-rd" x="75.0" y="104">うまれる</text>
+    <text class="vi-kanji" x="75.0" y="124">生まれる</text>
+    <text class="vi-mn" x="75.0" y="140">be born</text>
+  </g>
+  <g transform="translate(10,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="50" cy="50" r="29"/><path class="vi-a" d="M50 21 v58"/></svg>
+    <text class="vi-rd" x="75.0" y="104">わける</text>
+    <text class="vi-kanji" x="75.0" y="124">分ける</text>
+    <text class="vi-mn" x="75.0" y="140">divide</text>
+  </g>
+  <g transform="translate(172,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><circle class="vi-l" cx="42" cy="48" r="19"/><path class="vi-l" d="M53 62 q9 5 6 16"/><path class="vi-a" d="M66 20 q11 -8 21 0 q7 6 0 13 q-10 6 -21 0 q-7 -6 0 -13 z" stroke-dasharray="4 3"/><text class="vi-kanji" x="77" y="33" font-size="15" fill="#b3262d">?</text></svg>
+    <text class="vi-rd" x="75.0" y="104">かんがえる</text>
+    <text class="vi-kanji" x="75.0" y="124">考える</text>
+    <text class="vi-mn" x="75.0" y="140">think</text>
+  </g>
+  <g transform="translate(334,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M34 80 v-28 q0 -10 10 -10 q10 0 10 10 v12"/><path class="vi-a" d="M54 34 v-17"/><path class="vi-a" d="M46 25 l8 -10 l8 10"/></svg>
+    <text class="vi-rd" x="75.0" y="104">あげる</text>
+    <text class="vi-kanji" x="75.0" y="124">上げる</text>
+    <text class="vi-mn" x="75.0" y="140">raise, give</text>
+  </g>
+  <g transform="translate(496,196)">
+    <rect class="vi-card" x="0" y="0" width="150" height="172" rx="10"/>
+    <svg x="35" y="8" width="80" height="80" viewBox="0 0 100 100"><path class="vi-l" d="M16 58 q11 -11 27 -6"/><path class="vi-l" d="M84 58 q-11 -11 -27 -6"/><circle class="vi-f" cx="50" cy="54" r="4.5"/></svg>
+    <text class="vi-rd" x="75.0" y="104">たすける</text>
+    <text class="vi-kanji" x="75.0" y="124">助ける</text>
+    <text class="vi-mn" x="75.0" y="140">help</text>
+  </g>
+</svg>
