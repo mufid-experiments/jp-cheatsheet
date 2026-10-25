@@ -26,6 +26,7 @@ Each file in `topics/` is one cheatsheet: `topics/<name>.md` -> `build/<name>.pd
 | Sentence conjunctions (から, それから ...) | `topics/sentence.md` |
 | Rooms in the home | `topics/rooms-home.md` |
 | Rooms in the office | `topics/rooms-office.md` |
+| Time reference (today, tomorrow, this morning ...) | `topics/time-reference.md` |
 
 Furigana is plain HTML ruby: `<ruby>食<rt>た</rt></ruby>べる`.
 Highlight a particle with `**bold**`; example tables use `{: .ex}`.
