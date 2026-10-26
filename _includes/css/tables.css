@@ -1,0 +1,63 @@
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.3em 0 0.9em;
+  break-inside: avoid;
+}
+th {
+  background: var(--ink);
+  color: #fff;
+  text-align: left;
+  font-size: 8.5pt;
+  padding: 0.3em 0.6em;
+}
+td {
+  padding: 0.35em 0.6em;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--line);
+}
+tbody tr:nth-child(even) td { background: var(--tint); }
+td:first-child { font-weight: bold; white-space: nowrap; }
+
+/* Example sentences: Japanese | English, no header row */
+table.ex thead { display: none; }
+table.ex td:first-child { font-weight: normal; white-space: normal; width: 60%; font-size: 10.5pt; }
+table.ex td:last-child { color: var(--muted); }
+
+/* Vocabulary tables: Japanese headword bold and larger */
+table.vocab td:first-child { font-weight: bold; font-size: 10.5pt; white-space: nowrap; }
+table.vocab td:nth-child(3) { font-size: 10pt; }
+table.vocab.pairs td:nth-child(3) { font-weight: bold; font-size: 10.5pt; white-space: nowrap; }
+table.vocab.pairs td:nth-child(2) { width: 32%; }
+
+/* Compact reference tables: don't bold / nowrap the first column */
+table.plain td:first-child { font-weight: normal; white-space: normal; }
+table.compact td, table.compact th { padding: 0.2em 0.5em; }
+table.compact td { font-size: 9.5pt; }
+table.ex.compact td:first-child { font-size: 10pt; }
+table.compact td:first-child { white-space: normal; }
+table.center td, table.center th { text-align: center; }
+table.center td:first-child { font-weight: normal; }
+table.nobold td:first-child { font-weight: normal; }
+
+/* Verb vocab: word+meaning | example sentence | translation */
+table.verbs td:first-child { font-weight: bold; font-size: 10.5pt; white-space: nowrap; width: 15%; }
+table.verbs td:nth-child(2) { color: var(--muted); font-style: italic; font-size: 9pt; white-space: nowrap; width: 15%; }
+table.verbs td:nth-child(3) { font-size: 10pt; }
+table.verbs td:last-child { color: var(--muted); font-size: 9pt; }
+
+/* Connector table: role | connector | meaning | example */
+table.connectors td:nth-child(1) { font-size: 8pt; color: var(--ink); width: 11%; }
+table.connectors td:nth-child(2) { font-weight: bold; white-space: nowrap; }
+table.connectors td:nth-child(3) { width: 24%; }
+
+/* The eight endings: formality | kind | non-past | past */
+table.grid td:nth-child(2) { font-size: 8.5pt; color: var(--muted); width: 20%; }
+table.grid td:nth-child(n+3) { font-size: 12pt; width: 33%; }
+table.grid td:nth-child(n+3) em { font-size: 8.5pt; }
+table.grid tbody tr:nth-child(3) td { border-top: 1.5px solid var(--ink); }
+
+/* One sentence side by side: informal | formal | English */
+table.pair td:nth-child(-n+2) { font-size: 10.5pt; width: 35%; }
+table.pair td:last-child { color: var(--muted); }

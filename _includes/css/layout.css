@@ -1,0 +1,21 @@
+/* Inline SVG illustrations */
+figure.illustration {
+  margin: 0.4em 0 0.9em;
+  break-inside: avoid;
+}
+figure.illustration svg { display: block; width: 100%; height: auto; }
+
+/* Start a section on a fresh page when printing */
+.new-page { break-before: page; margin-top: 0; }
+@media screen {
+  .new-page { break-before: auto; margin-top: 1.5em; }
+}
+
+/* Two-column blocks */
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 1.2em;
+  align-items: start;
+}
+.cols > * { min-width: 0; }
