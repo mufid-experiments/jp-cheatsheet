@@ -1,5 +1,5 @@
 ---
-title: "Sentence Conjunctions: から・それから"
+title: "Sentence Conjunctions: から・それから・つまり"
 title_ja: '<ruby>接続詞<rt>せつぞくし</rt></ruby> ― つなぐことば'
 ---
 
@@ -135,7 +135,58 @@ title_ja: '<ruby>接続詞<rt>せつぞくし</rt></ruby> ― つなぐことば
 </div>
 </div>
 
-## 3. Other connectors ～
+## 3. つまり: in other words / in short
+{: .new-page}
+
+> **[A]。つまり、[B]。**
+>
+> "[A]. In other words, [B]." — B says A again: in simpler words, or boiled down to the point.
+{: .formula}
+
+| | |
+|-|-|
+| この<ruby>人<rt>ひと</rt></ruby>は<ruby>母<rt>はは</rt></ruby>の<ruby>妹<rt>いもうと</rt></ruby>、**つまり**<ruby>私<rt>わたし</rt></ruby>のおばです。 | This is my mother's younger sister — in other words, my aunt. |
+| この<ruby>部屋<rt>へや</rt></ruby>は<ruby>広<rt>ひろ</rt></ruby>くて、<ruby>明<rt>あか</rt></ruby>るくて、<ruby>駅<rt>えき</rt></ruby>から<ruby>近<rt>ちか</rt></ruby>いです。**つまり**、<ruby>最高<rt>さいこう</rt></ruby>です。 | This room is big, bright and near the station. In short, it's perfect. *(sum up)* |
+| <ruby>部長<rt>ぶちょう</rt></ruby>は「<ruby>考<rt>かんが</rt></ruby>えておきます」と<ruby>言<rt>い</rt></ruby>いました。**つまり**、だめ**ということです**。 | The boss said, "I'll think about it." In other words, it's a no. *(what it really means)* |
+| 「<ruby>今<rt>いま</rt></ruby>、お<ruby>金<rt>かね</rt></ruby>がなくて…」「**つまり**、<ruby>貸<rt>か</rt></ruby>して**ってこと**？」 | "I'm out of money right now…" "So you want me to lend you some?" *(casual check)* |
+{: .ex}
+
+<div class="cols" markdown="1">
+<div markdown="1">
+
+> **つまり … ということです**
+>
+> The restated part often ends in **～ということです** "it means ~" (casual: **～ってこと**).
+>
+> 「**つまり**、<ruby>何<rt>なに</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいの？」 *So what are you trying to say?*
+
+> **Say it:** *tsu-ma-ri*. The つ is the *ts* in "cats", not *su*mari.
+
+</div>
+<div markdown="1">
+
+> **だから vs つまり**
+>
+> Both can be "so" in English.
+>
+> **だから** = cause → result<br><ruby>雨<rt>あめ</rt></ruby>**だから**、<ruby>行<rt>い</rt></ruby>かない。 *It's raining, so I'm not going.*
+>
+> **つまり** = the same thing, in other words<br><ruby>母<rt>はは</rt></ruby>の<ruby>妹<rt>いもうと</rt></ruby>、**つまり**おばです。 *My mom's sister, so (= that is) my aunt.*
+
+</div>
+</div>
+
+### Similar words
+
+| Word | Meaning | Use |
+|------|---------|-----|
+| **つまり** | in other words; in short | everyday, in speech and writing |
+| **<ruby>要<rt>よう</rt></ruby>するに** | in short; the point is | sums up a long talk; can sound blunt |
+| **すなわち** | namely; that is | formal, mostly writing |
+| **ということは** | that means… | a conclusion from what someone just said |
+{: .plain .compact}
+
+## 4. Other connectors ～
 {: .new-page}
 
 | Role | Connector | Meaning | Example |
@@ -148,6 +199,7 @@ title_ja: '<ruby>接続詞<rt>せつぞくし</rt></ruby> ― つなぐことば
 | **Contrast** | でも | but, however (casual, starts a sentence) | <ruby>高<rt>たか</rt></ruby>いです。**でも**、<ruby>買<rt>か</rt></ruby>います。<br>*It's expensive. But I'll buy it.* |
 | | しかし | however (formal, mostly writing) | <ruby>難<rt>むずか</rt></ruby>しいです。**しかし**、おもしろいです。<br>*It's hard. However, it's interesting.* |
 | | が / けど | but (inside a sentence; が is polite, けど is casual) | <ruby>高<rt>たか</rt></ruby>いです**が**、おいしいです。<br>*It's expensive, but delicious.* |
+| **Rephrase / sum up** | つまり | in other words, in short (the same thing, said again) | <ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>金曜日<rt>きんようび</rt></ruby>、**つまり**<ruby>十日<rt>とおか</rt></ruby>です。<br>*Next Friday, that is, the 10th.* |
 | **Topic / choice** | ところで | by the way | **ところで**、<ruby>明日<rt>あした</rt></ruby>は<ruby>暇<rt>ひま</rt></ruby>ですか。<br>*By the way, are you free tomorrow?* |
 | | じゃあ / では | well then, in that case | **じゃあ**、<ruby>始<rt>はじ</rt></ruby>めましょう。<br>*Well then, let's begin.* |
 | | たとえば | for example | **たとえば**、りんごやバナナです。<br>*For example, apples and bananas.* |
