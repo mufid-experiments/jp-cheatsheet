@@ -1,0 +1,49 @@
+:root {
+  --text: #1a1a1a;
+  --muted: #666;
+  --accent: #b3262d;      /* vermilion: headings, highlighted particles */
+  --ink: #24364f;         /* indigo: table headers */
+  --tint: #f4f6f9;
+  --line: #dfe3ea;
+  --note-bg: #eef4fb;
+  --note-line: #5b8fc7;
+  --warn-bg: #fdf0ee;
+  --warn-line: #d9604f;
+}
+
+@page {
+  size: A4;
+  margin: 12mm 13mm;
+}
+
+* { box-sizing: border-box; }
+
+html { background: #fff; }
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: #fff;
+  /* Latin from Helvetica/Arial, Japanese falls through to the first CJK font present */
+  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP", "Noto Sans CJK JP", "Yu Gothic", Meiryo, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.45;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.sheet {
+  max-width: 184mm;
+  margin: 0 auto;
+}
+
+@media screen {
+  body { padding: 20px 0; }
+  .sheet { padding: 0 16px; }
+}
+
+@media print {
+  body { padding: 0; }
+  .sheet { padding: 0; }
+}

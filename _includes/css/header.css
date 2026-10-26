@@ -1,0 +1,21 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2.5px solid var(--accent);
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+header h1 { margin: 0; font-size: 20pt; line-height: 1.15; }
+.title-ja { margin: 0.5em 0 0; font-size: 11pt; line-height: 1.8; color: var(--muted); }
+.level {
+  margin: 0;
+  padding: 0.25em 0.8em;
+  border-radius: 1em;
+  background: var(--ink);
+  color: #fff;
+  font-weight: bold;
+  font-size: 10pt;
+  white-space: nowrap;
+}
