@@ -8,6 +8,7 @@ exclude:
   - "*.pdf"
   - bin
   - build
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - Makefile
