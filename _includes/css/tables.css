@@ -67,3 +67,11 @@ table.grid tbody tr:nth-child(3) td { border-top: 1.5px solid var(--ink); }
 /* One sentence side by side: informal | formal | English */
 table.pair td:nth-child(-n+2) { font-size: 10.5pt; width: 35%; }
 table.pair td:last-child { color: var(--muted); }
+
+/* Decision steps: number | question | answer | examples */
+table.steps td:first-child { font-size: 14pt; color: var(--accent); text-align: center; width: 5%; }
+table.steps td:nth-child(2) { width: 34%; }
+table.steps td:nth-child(3) { white-space: nowrap; }
+
+/* Self-test: the answer columns are muted, to cover with a hand */
+table.quiz td:nth-child(n+2) { color: var(--muted); }
