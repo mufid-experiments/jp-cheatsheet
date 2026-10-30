@@ -64,6 +64,13 @@ table.grid td:nth-child(n+3) { font-size: 12pt; width: 33%; }
 table.grid td:nth-child(n+3) em { font-size: 8.5pt; }
 table.grid tbody tr:nth-child(3) td { border-top: 1.5px solid var(--ink); }
 
+/* Verb forms by stem row: type | one column per form, the forms large */
+table.stems td:nth-child(n+2) { font-size: 11pt; }
+table.stems td:nth-child(n+2) em { font-size: 8.5pt; }
+
+/* Common mistakes: verb | rule | right | wrong, each form on one line */
+table.mistakes td:nth-child(n+3) { white-space: nowrap; }
+
 /* One sentence side by side: informal | formal | English */
 table.pair td:nth-child(-n+2) { font-size: 10.5pt; width: 35%; }
 table.pair td:last-child { color: var(--muted); }
