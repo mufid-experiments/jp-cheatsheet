@@ -24,6 +24,10 @@ jobs:
           ruby-version: "4.0.9"
           bundler-cache: true
 
+      # The runner has no Japanese font, so Chrome prints kanji and kana as
+      # empty boxes. "Noto Sans CJK JP" is in the font stack in base.css.
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+
       # HTML + PDF for every topic, plus build/index.html. Chrome is preinstalled
       # on ubuntu-latest and found by bin/build as `google-chrome`.
       - run: bundle exec bin/build
